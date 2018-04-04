@@ -1,0 +1,34 @@
+#!/bin/bash
+#  flex - a prompt with nearly everything ...
+#    - user set-able colours and date format
+#    - load display (loads above one only, displayed in
+#      the upper right corner)
+#    - history number, directory, username, hostname
+#    - terminal number and clock in the upper right corner
+#    - if you're in "screen," it will let you know
+#    - if you have apm, the status of your battery will be
+#      displayed
+#    - the info in the upper right corner can be set to
+#      auto-refresh
+
+# Look past the colour list to set your own prompt colours and options
+
+#  Notes:
+#  ------
+#  - to clean up previous autorefreshes:
+#       jobs -l | grep callPrintInfo | awk '{print $2}'
+#  - could make a lot of stuff user settable as variables,
+#    like date format (done) ...
+#  - evidently CHANGING LINES in a tput cursor relocate
+#    is BAD - this is why I have two separate functions
+#    setting up the two lines of the upper right corner.
+#    Without this, long command lines are butchered.
+
+#   Change Prompt
+#  -------------------------------------------------------------------------------------------------------------
+# Show working directory in tab
+PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+
+PS1="\[\033[38m\]\u\[\033[32m\] \w \[\033[31m\]\`ruby -e \"print (%x{git branch 2> /dev/null}.split(%r{\n}).grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\[\033[37m\]$\[\033[00m\] "
+
+PS2="| => "
