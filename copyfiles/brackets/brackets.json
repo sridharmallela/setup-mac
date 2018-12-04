@@ -1,0 +1,21 @@
+{
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "fonts.fontSize": "13px",
+    "fonts.fontFamily": "Fira Code",
+    "themes.theme": "material-theme-brackets",
+    "markdown-preview.theme": "dark",
+    "markdown-preview.useGFM": false,
+    "spaceUnits": 2,
+    "language.fileExtensions": {
+        "": "bash"
+    },
+    "linting.collapsed": true,
+    "autoSavePrefs.checkedPrefs": false,
+    "gtTab.showTabs": false,
+    "custom.work.useIconsOfCustomWork": true,
+    "custom.work.blueish": true,
+    "custom.work.moveToolbarToSidebar": true,
+    "custom.work.autoHideTheTabmenu": true,
+    "custom.work.halfcircle.sidebar": true
+}

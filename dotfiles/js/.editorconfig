@@ -1,5 +1,6 @@
-# EditorConfig helps developers define and maintain consistent
-# coding styles between different editors and IDEs
+# -------------------------------------------------------------------------------------------------------------
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# -------------------------------------------------------------------------------------------------------------
 
 root = true
 
@@ -14,6 +15,10 @@ trim_trailing_whitespace = true
 [*.md]
 insert_final_newline = false
 trim_trailing_whitespace = false
+indent_size = 2
 
 [*.json]
+indent_size = 2
+
+[*.yml]
 indent_size = 2

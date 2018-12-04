@@ -1,11 +1,10 @@
 #!/bin/bash
 
-print_heading "setting up pictures started"
+print_heading "setting up pictures started ..."
+bkp_pics=$projdir/copyfiles/pictures
 
 # check pictures directory exists and then take a backup
-if [ -d $projdir/copyfiles/pictures ]; then
-	echo "copying pictures ....."
-	\cp -v $projdir/copyfiles/pictures/* ~/Pictures/
-fi
+[[ -d $bkp_pics ]] && debug "copying pictures from $bkp_pics to $(dirname ~/Pictures)/Pictures" && \cp $bkp_pics/* ~/Pictures/
 
-print_heading "setting up pictures completed"
+unset bkp_pics
+print_heading "setting up pictures completed ..."

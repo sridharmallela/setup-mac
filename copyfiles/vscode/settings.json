@@ -1,311 +1,331 @@
 {
-  // Enable / Disable allowing word compounds. true means 'arraylength' would be ok, false means it would not pass.
-  "cSpell.allowCompoundWords": true,
-  // Specify file types to spell check.
-  "cSpell.enabledLanguageIds": [
-    "javascript",
-    "markdown",
-    "plaintext",
-    "text",
-    "typescript"
-  ],
-  // Specify paths/files to ignore. (Supports Globs)
-  "cSpell.ignorePaths": [
-    "**/node_modules/**",
-    "**/bower_components/**",
-    "**/vscode-extension/**",
-    "**/.git/**",
-    ".vscode/**",
-    "typings/**",
-    "**/.npm/**",
-    "**/.history/**",
-    "**/.nyc_output/**",
-    "**/build/**",
-    "**/dist/**"
-  ],
-  // Words to add to dictionary for a workspace.
-  "cSpell.userWords": [
-    "Artifactory",
-    "Cachable",
-    "DDOS",
-    "EBADCSRFTOKEN",
-    "ITAM",
-    "ITEC",
-    "Mallela",
-    "Splunk",
-    "Sridhar",
-    "angularjs",
-    "autocrl",
-    "brkg",
-    "cobertura",
-    "codecov",
-    "codedox",
-    "csrf",
-    "ctoken",
-    "docthis",
-    "emojis",
-    "ensighten",
-    "este",
-    "executables",
-    "fcontents",
-    "fpath",
-    "fsreqid",
-    "jasminewd",
-    "jsbeautifier",
-    "junit",
-    "lcov",
-    "modernizr",
-    "ngdt",
-    "ngft",
-    "ngtt",
-    "nodist",
-    "npmrc",
-    "osname",
-    "pree",
-    "productid",
-    "qaprod",
-    "repo",
-    "rtazacm",
-    "rtazallrealmslids",
-    "rtazfortent",
-    "rtazuuid",
-    "samp",
-    "srvc",
-    "stringify",
-    "tsdk",
-    "uglifyjs",
-    "vcmrc",
-    "wafpickle",
-    "watchjs",
-    "wscript",
-    "yarnrc"
-  ],
-  // Controls if the editor shows code lenses
-  "editor.codeLens": false,
-  // Controls the font size in pixels.
-  "editor.fontSize": 13,
-  // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
-  "editor.formatOnPaste": true,
-  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
-  "editor.formatOnSave": true,
-  // Controls if the editor should automatically format the line after typing
-  "editor.formatOnType": true,
-  // Controls if the minimap is shown
-  "editor.minimap.enabled": false,
-  // Controls whether the editor should render indent guides
-  "editor.renderIndentGuides": false,
-  // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty
-  "editor.rulers": [
-    120,
-    160
-  ],
-  // Controls how lines should wrap. Can be:
-  //  - 'off' (disable wrapping),
-  //  - 'on' (viewport wrapping),
-  //  - 'wordWrapColumn' (wrap at `editor.wordWrapColumn`) or
-  //  - 'bounded' (wrap at minimum of viewport and `editor.wordWrapColumn`).
-  "editor.wordWrap": "on",
-  // Controls the wrapping column of the editor when `editor.wordWrap` is 'wordWrapColumn' or 'bounded'.
-  "editor.wordWrapColumn": 160,
-  // Turns auto fix on save on or off.
-  "eslint.autoFixOnSave": true,
-  // A path added to NODE_PATH when resolving the eslint module.
-  "eslint.nodePath": "/usr/local/lib/node_modules/eslint/bin",
-  // The eslint options object to provide args normally passed to eslint when executed from a command line (see http://eslint.org/docs/developer-guide/nodejs-api#cliengine).
-  "eslint.options": {
-    "configFile": "~/.eslintrc"
-  },
-  // Run the linter on save (onSave) or on type (onType)
-  "eslint.run": "onSave",
-  // list all workspace directories
-  "eslint.workingDirectories": [
-    "lib",
-    "client",
-    "server",
-    "config",
-    "public",
-    "src"
-  ],
-  // Controls if the explorer should ask for confirmation when deleting a file via the trash.
-  "explorer.confirmDelete": false,
-  // Controls if the explorer should ask for confirmation to move files and folders via drag and drop.
-  "explorer.confirmDragAndDrop": false,
-  // Controls if the explorer should allow to move files and folders via drag and drop.
-  "explorer.enableDragAndDrop": false,
-  // If set to true, the notifications for extension recommendations will stop showing up.
-  "extensions.ignoreRecommendations": true,
-  // If set to true, recommendations will not be fetched or shown unless specifically requested by the user.
-  "extensions.showRecommendationsOnlyOnDemand": true,
-  // Configure file associations to languages (e.g. '*.extension': 'html'). These have precedence over the default associations of the languages installed.
-  "files.associations": {
-    "*.postman_collection": "json"
-  },
-  // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
-  "files.autoSave": "onFocusChange",
-  // Configure glob patterns for excluding files and folders.
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/.DS_Store": true,
-    "**/.idea": true,
-    "**/.vscode": true,
-    "**/.npm": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/.nyc_output": true,
-    "**/.sass-cache": true,
-    "**/build": true,
-    "**/assembly": true,
-    "**/.history": true,
-    "**/dist": true,
-    "**/bin": true
-  },
-  // Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.
-  "files.hotExit": "onExitAndWindowClose",
-  // When enabled, insert a final new line at the end of the file when saving it.
-  "files.insertFinalNewline": true,
-  // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
-  "files.trimFinalNewlines": true,
-  // When enabled, will trim trailing whitespace when saving a file.
-  "files.trimTrailingWhitespace": true,
-  // Configure glob patterns of file paths to exclude from file watching. Changing this setting requires a restart. When you experience Code consuming lots of cpu time on startup, you can exclude large folders to reduce the initial load.
-  "files.watcherExclude": {
-    "**/.git/**": true,
-    "**/node_modules/**": true,
-    "**/bower_components/**": true,
-    "**/.idea/**": true,
-    "**/.vscode/**": true,
-    "**/dist/**": true,
-    "**/build/**": true,
-    "**/.npm/**": true,
-    "**/coverage/**": true,
-    "**/.nyc_output/**": true,
-    "**/.sass-cache/**": true,
-    "**/assembly/**": true,
-    "**/.history/**": true,
-    "**/bin/**": true,
-    "**/tests/**": true
-  },
-  // End with a newline.
-  "html.format.endWithNewline": true,
-  // List of tags, comma separated, that should have an extra newline before them. 'null' defaults to "head, body, /html".
-  "html.format.extraLiners": "",
-  // List of tags, comma separated, that should have an extra newline before them. 'null' defaults to "head, body, /html".
-  // Indent <head> and <body> sections.
-  "html.format.indentInnerHtml": true,
-  // Maximum number of line breaks to be preserved in one chunk. Use 'null' for unlimited.
-  "html.format.maxPreserveNewLines": 1,
-  // List of tags, comma separated, that shouldn't be reformatted. 'null' defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.
-  "html.format.unformatted": "abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, map, object, q, samp, small, strong, sub, sup, textarea, tt, var",
-  // Maximum amount of characters per line (0 = disable).
-  "html.format.wrapLineLength": 160,
-  // Whether the proxy server certificate should be verified against the list of supplied CAs.
-  "http.proxyStrictSSL": false,
-  // A day number to purge local history. (0: no purge)
-  "local-history.daysLimit": 4,
-  // Is save in local history enabled (Never=0, Always=1, Limited to workspaceFolder=2)
-  "local-history.enabled": 2,
-  // Files or folder to not save
-  "local-history.exclude": [
-    "**/.history/**",
-    "**/.vscode/**",
-    "**/node_modules/**",
-    "**/typings/**",
-    "**/out/**",
-    "**/dist/**",
-    "**/.idea/**",
-    "**/bower_components/**",
-    "**/.nyc_output/**",
-    "**/coverage/**",
-    "**/Code/User/**",
-    "**/bin/**"
-  ],
-  // Controls the delay in seconds after which local-history is saved. To avoid too many history files.
-  "local-history.saveDelay": 300,
-  // anchor mode.
-  "markdown-toc.anchorMode": "bitbucket.org",
-  // Auto insert anchor for link.
-  "markdown-toc.insertAnchor": true,
-  // Show the welcome message after first installation.
-  "material-icon-theme.showWelcomeMessage": false,
-  // Show the update message after each update.
-  "material-icon-theme.showUpdateMessage": false,
-  // Configures if the built-in PHP language suggestions are enabled. The support suggests PHP globals and variables.
-  "php.suggest.basic": false,
-  // Enable/disable built-in PHP validation.
-  "php.validate.enable": false,
-  // Enable crash reports to be sent to Microsoft.
-  // This option requires restart to take effect.
-  "telemetry.enableCrashReporter": false,
-  // Enable usage data and errors to be sent to Microsoft.
-  "telemetry.enableTelemetry": false,
-  // Customizes what kind of terminal to launch.
-  "terminal.explorerKind": "external",
-  // Check if NPM is installed for Automatic Type Acquisition.
-  "typescript.check.npmIsInstalled": false,
-  // Sets the locale used to report TypeScript errors. Requires TypeScript >= 2.6.0. Default of 'null' uses VS Code's locale for TypeScript errors.
-  "typescript.locale": "en",
-  // Specifies the path to the NPM executable used for Automatic Type Acquisition. Requires TypeScript >= 2.3.4.
-  "typescript.npm": "/usr/local/lib/node_modules/typescript/lib",
-  // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
-  "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
-  // Enable/disable references CodeLens in TypeScript files. Requires TypeScript >= 2.0.6.
-  "typescript.referencesCodeLens.enabled": true,
-  // Complete functions with their parameter signature.
-  "typescript.useCodeSnippetsOnMethodSuggest": true,
-  // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/.git": true,
-    "**/.idea": true,
-    "**/.vscode": true,
-    "**/dist": true,
-    "**/coverage": true,
-    "**/build": true,
-    "**/.npm": true,
-    "**/.nyc_output": true,
-    "**/.history": true,
-    "**/resources": true,
-    "**/bin": true
-  },
-  // Controls if files should open in a new window.
-  // - default: files will open in the window with the files' folder open or the last active window unless opened via the dock or from finder (macOS only)
-  // - on: files will open in a new window
-  // - off: files will open in the window with the files' folder open or the last active window
-  // Note that there can still be cases where this setting is ignored (e.g. when using the -new-window or -reuse-window command line option).
-  "window.openFilesInNewWindow": "on",
-  // Controls if folders should open in a new window or replace the last active window.
-  // - default: folders will open in a new window unless a folder is picked from within the application (e.g. via the File menu)
-  // - on: folders will open in a new window
-  // - off: folders will replace the last active window
-  // Note that there can still be cases where this setting is ignored (e.g. when using the -new-window or -reuse-window command line option).
-  "window.openFoldersInNewWindow": "on",
-  // Controls the window title based on the active editor. Variables are substituted based on the context:
-  // ${activeEditorShort}: e.g. myFile.txt
-  // ${activeEditorMedium}: e.g. myFolder/myFile.txt
-  // ${activeEditorLong}: e.g. /Users/Development/myProject/myFolder/myFile.txt
-  // ${rootName}: e.g. myProject
-  // ${rootPath}: e.g. /Users/Development/myProject
-  // ${appName}: e.g. VS Code
-  // ${dirty}: a dirty indicator if the active editor is dirty
-  // ${separator}: a conditional separator (" - ") that only shows when surrounded by variables with values
-  "window.title": "${activeEditorShort}${separator}${rootPath}${dirty}",
-  // Specifies the color theme used in the workbench.
-  "workbench.colorTheme": "Dark+ Material",
-  // Controls the number of recently used commands to keep in history for the command palette. Set to 0 to disable command history.
-  "workbench.commandPalette.history": 0,
-  // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  // Specifies the icon theme used in the workbench or 'null' to not show any file icons.
-  "workbench.iconTheme": "material-icon-theme",
-  // Controls which editor is shown at startup, if none is restored from the previous session. Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
-  "workbench.startupEditor": "none",
-  // Controls the location of the sidebar. It can either show on the left or right of the workbench.
-  "workbench.sideBar.location": "left",
-  // Controls the visibility of the Twitter feedback (smiley) in the status bar at the bottom of the workbench.
-  "workbench.statusBar.feedback.visible": false,
-  // When enabled, will show the watermark tips when no editor is open.
-  "workbench.tips.enabled": false
+    // Auto close tag when </ is typed, same as Sublime Text 3
+    "auto-close-tag.SublimeText3Mode": true,
+    // A path to a file, or an object containing the configuration options for js-beautify. If the .jsbeautifyrc file exists in project root, it overrides this configuration.
+    "beautify.config": "~/.jsbeautifyrc",
+    // List of paths to ignore when using VS Code format command, including format on save. Uses glob pattern matching.
+    "beautify.ignore": [
+      "**/dist/**/*",
+      "**/.history/**/*",
+      "**/node_modules/**/*",
+      "**/coverage/**/*"
+    ],
+    // Allow bookmarks to be saved (and restored) locally in the opened Project/Folder instead of VS Code
+    "bookmarks.saveBookmarksInProject": true,
+    // Specifies visiblity of all browsers in status bar.
+    "caniuse.show_all": true,
+    // Enable / Disable allowing word compounds. true means 'arraylength' would be ok, false means it would not pass.
+    "cSpell.allowCompoundWords": true,
+    // Issues found by the spell checker are marked with a Diagnostic Severity Level. This affects the color of squiggle.
+    "cSpell.diagnosticLevel": "Hint",
+    // Specify file types to spell check.
+    "cSpell.enabledLanguageIds": [
+      "handlebars",
+      "javascript",
+      "markdown",
+      "plaintext",
+      "text",
+      "typescript"
+    ],
+    // Specify paths/files to ignore. (Supports Globs)
+    "cSpell.ignorePaths": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/vscode-extension/**",
+      "**/.git/**",
+      ".vscode/**",
+      "typings/**",
+      "**/.npm/**",
+      "**/.history/**",
+      "**/.nyc_output/**",
+      "**/build/**",
+      "**/dist/**"
+    ],
+    // Set the Debug Level for logging messages.
+    "cSpell.logLevel": "None",
+    // The maximum number of times the same word can be flagged as an error in a file.
+    "cSpell.maxDuplicateProblems": 1,
+    // Controls whether the editor shows CodeLens
+    "editor.codeLens": false,
+    // Controls the font family.
+    "editor.fontFamily": "Fira Code",
+    // Enables/Disables font ligatures.
+    "editor.fontLigatures": true,
+    // Controls the font size in pixels.
+    "editor.fontSize": 14,
+    // Controls if the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
+    "editor.formatOnPaste": true,
+    // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+    "editor.formatOnSave": true,
+    // Controls if the editor should automatically format the line after typing
+    "editor.formatOnType": true,
+    // Controls if the minimap is shown
+    "editor.minimap.enabled": false,
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": false,
+    // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty
+    "editor.rulers": [
+      120,
+      160
+    ],
+    // Controls how lines should wrap. Can be:
+    //  - 'off' (disable wrapping),
+    //  - 'on' (viewport wrapping),
+    //  - 'wordWrapColumn' (wrap at `editor.wordWrapColumn`) or
+    //  - 'bounded' (wrap at minimum of viewport and `editor.wordWrapColumn`).
+    "editor.wordWrap": "on",
+    // Controls the wrapping column of the editor when `editor.wordWrap` is 'wordWrapColumn' or 'bounded'.
+    "editor.wordWrapColumn": 120,
+    // Turns auto fix on save on or off.
+    "eslint.autoFixOnSave": true,
+    // A path added to NODE_PATH when resolving the eslint module.
+    "eslint.nodePath": "/usr/local/lib/node_modules/eslint/bin",
+    // The eslint options object to provide args normally passed to eslint when executed from a command line (see http://eslint.org/docs/developer-guide/nodejs-api#cliengine).
+    "eslint.options": {
+        "configFile": "~/.eslintrc"
+    },
+    // Run the linter on save (onSave) or on type (onType)
+    "eslint.run": "onSave",
+    // list all workspace directories
+    "eslint.workingDirectories": [
+      "lib",
+      "client",
+      "server",
+      "config",
+      "public",
+      "src",
+      "e2e"
+    ],
+    // Controls if the explorer should ask for confirmation when deleting a file via the trash.
+    "explorer.confirmDelete": false,
+    // Controls if the explorer should ask for confirmation to move files and folders via drag and drop.
+    "explorer.confirmDragAndDrop": false,
+    // Controls if the explorer should allow to move files and folders via drag and drop.
+    "explorer.enableDragAndDrop": false,
+    // If set to true, the notifications for extension recommendations will stop showing up.
+    "extensions.ignoreRecommendations": true,
+    // If set to true, recommendations will not be fetched or shown unless specifically requested by the user.
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    // Configure file associations to languages (e.g. '*.extension': 'html'). These have precedence over the default associations of the languages installed.
+    "files.associations": {
+        "*.postman_collection": "json",
+        "*.icns": "ico"
+    },
+    // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'.
+    "files.autoSave": "onFocusChange",
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when `files.autoSave` is set to `afterDelay`.
+    "files.autoSaveDelay": 5000,
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.coverdata": true,
+        "**/.coverrun": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.history": true,
+        "**/.idea": true,
+        "**/.npm": true,
+        "**/.nyc_output": true,
+        "**/.sass-cache": true,
+        "**/.scannerwork": true,
+        "**/.sonarlint": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/assembly": true,
+        "**/bin": true,
+        "**/bower_components": true,
+        "**/build": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/.taurus": true
+    },
+    // Controls whether unsaved files are remembered between sessions, allowing the save prompt when exiting the editor to be skipped.
+    "files.hotExit": "onExitAndWindowClose",
+    // When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": true,
+    // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+    "files.trimFinalNewlines": true,
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+    // Configure glob patterns of file paths to exclude from file watching. Changing this setting requires a restart. When you experience Code consuming lots of cpu time on startup, you can exclude large folders to reduce the initial load.
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true,
+        "**/.idea/**": true,
+        "**/.vscode/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.npm/**": true,
+        "**/coverage/**": true,
+        "**/.nyc_output/**": true,
+        "**/.sass-cache/**": true,
+        "**/assembly/**": true,
+        "**/.history/**": true,
+        "**/bin/**": true,
+        "**/tests/**": true,
+        "**/.sonarlint/**": true,
+        "**/.taurus/**": true
+    },
+    // Path and filename of the git executable, e.g. `C:\Program Files\Git\bin\git.exe` (Windows).
+    "git.path": "/usr/local/bin/git",
+    // Controls whether auto detection of Grunt tasks is on or off. Default is on.
+    "grunt.autoDetect": "off",
+    // Controls whether auto detection of Gulp tasks is on or off. Default is on.
+    "gulp.autoDetect": "off",
+    // End with a newline.
+    "html.format.endWithNewline": true,
+    // List of tags, comma separated, that should have an extra newline before them. 'null' defaults to "head, body, /html".
+    "html.format.extraLiners": "",
+    // List of tags, comma separated, that should have an extra newline before them. 'null' defaults to "head, body, /html".
+    // Indent <head> and <body> sections.
+    "html.format.indentInnerHtml": true,
+    // Maximum number of line breaks to be preserved in one chunk. Use 'null' for unlimited.
+    "html.format.maxPreserveNewLines": 1,
+    // List of tags, comma separated, that shouldn't be reformatted. 'null' defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.
+    "html.format.unformatted": "abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, map, object, q, samp, small, strong, sub, sup, textarea, tt, var",
+    // Controls whether auto detection of Jake tasks is on or off. Default is on.
+    "jake.autoDetect": "off",
+    // A day number to purge local history. (0: no purge)
+    "local-history.daysLimit": 4,
+    // Is save in local history enabled (Never=0, Always=1, Limited to workspaceFolder=2)
+    "local-history.enabled": 2,
+    // Files or folder to not save
+    "local-history.exclude": [
+      "**/.history/**",
+      "**/.vscode/**",
+      "**/node_modules/**",
+      "**/typings/**",
+      "**/out/**",
+      "**/dist/**",
+      "**/.idea/**",
+      "**/bower_components/**",
+      "**/.nyc_output/**",
+      "**/coverage/**",
+      "**/Code/User/**",
+      "**/bin/**",
+      "**/.taurus"
+    ],
+    // Controls the delay in seconds after which local-history is saved. To avoid too many history files.
+    "local-history.saveDelay": 300,
+    // Controls whether npm scripts should be automatically detected.
+    "npm.autoDetect": "off",
+    // Configures if the built-in PHP language suggestions are enabled. The support suggests PHP globals and variables.
+    "php.suggest.basic": false,
+    // Enable/disable built-in PHP validation.
+    "php.validate.enable": false,
+    // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting
+    "search.exclude": {
+        "**/.coverdata": true,
+        "**/.coverrun": true,
+        "**/.git": true,
+        "**/.history": true,
+        "**/.idea": true,
+        "**/.npm": true,
+        "**/.nyc_output/**": true,
+        "**/.scannerwork": true,
+        "**/.vscode": true,
+        "**/bin": true,
+        "**/bower_components": true,
+        "**/build": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/resources": true,
+        "**/.taurus": true
+    },
+    // Configure the connection(s) to SonarQube/SonarCloud in your USER settings.
+    // For security reasons, the token should not be stored in SCM with workspace settings
+    // "sonarlint.connectedMode.servers": [
+    //     {
+    //        "serverId": "my_orga_in_sonarcloud.io", // Connection identifier
+    //        "serverUrl": "https://sonarcloud.io",   // SonarQube/SonarCloud URL - https//sonarcloud.io for SonarCloud
+    //        "organizationKey": "my_organization",   // Organization key in SonarCloud only
+    //        "token": "V2VkIE1heSAyMyAwODowOTozMiBDRVNUIDIwMTgK"    // User token - generated in SonarQube/SonarCloud in My Account>Security
+    //     }
+    // ],
+    "sonarlint.connectedMode.servers": [{
+        "serverId": "localhost",
+        "serverUrl": "http://localhost:9000",
+        "token": "d965bc8d19990e042886beeb34f21803d0579bb0"
+    }],
+    // Disable sending anonymous usage statistics
+    "sonarlint.disableTelemetry": true,
+    // Specifies the folder path to the JRE 8 used to launch the SonarLint Language Server. For example "C:\\Program Files\\Java\\jre1.8.0_131
+    "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home",
+    // Files whose name match this glob pattern are considered as test files
+    "sonarlint.testFilePattern": "{**/test/**,**/*test*,**/*Test*,**/*.spec.*,**/*.e2e.*}",
+    // Enable crash reports to be sent to Microsoft.
+    // This option requires restart to take effect.
+    "telemetry.enableCrashReporter": false,
+    // Enable usage data and errors to be sent to Microsoft.
+    "telemetry.enableTelemetry": false,
+    // Check if NPM is installed for Automatic Type Acquisition.
+    "typescript.check.npmIsInstalled": false,
+    // Sets the locale used to report TypeScript errors. Requires TypeScript >= 2.6.0. Default of 'null' uses VS Code's locale for TypeScript errors.
+    "typescript.locale": "en",
+    // Specifies the path to the NPM executable used for Automatic Type Acquisition. Requires TypeScript >= 2.3.4.
+    "typescript.npm": "/usr/local/lib/node_modules/typescript/lib",
+    // Enable/disable references CodeLens in TypeScript files. Requires TypeScript >= 2.0.6.
+    "typescript.referencesCodeLens.enabled": true,
+    // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+    "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
+    // Enable/disable automatic updating of import paths when you rename or move a file in VS Code. Possible values are: 'prompt' on each rename, 'always' update paths automatically, and 'never' rename paths and don't prompt me. Requires using TypeScript 2.9 or newer in the workspace.
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    // If set to true, the extension will match some of the common Angular patterns.
+    "vsicons.presets.angular": true,
+    // If set to true, the extension will use the official JS icon.
+    "vsicons.presets.jsOfficial": true,
+    // If set to true, the extension will use the official JSON icon.
+    "vsicons.presets.jsonOfficial": true,
+    // If set to true, the extension will use the official TS icon.
+    "vsicons.presets.tsOfficial": true,
+    // If set to true, the extension will restart automatically on project detection.
+    "vsicons.projectDetection.autoReload": true,
+    // Controls if files should open in a new window.
+    // - default: files will open in the window with the files' folder open or the last active window unless opened via the dock or from finder (macOS only)
+    // - on: files will open in a new window
+    // - off: files will open in the window with the files' folder open or the last active window
+    // Note that there can still be cases where this setting is ignored (e.g. when using the -new-window or -reuse-window command line option).
+    "window.openFilesInNewWindow": "on",
+    // Controls if folders should open in a new window or replace the last active window.
+    // - default: folders will open in a new window unless a folder is picked from within the application (e.g. via the File menu)
+    // - on: folders will open in a new window
+    // - off: folders will replace the last active window
+    // Note that there can still be cases where this setting is ignored (e.g. when using the -new-window or -reuse-window command line option).
+    "window.openFoldersInNewWindow": "off",
+    // Controls the window title based on the active editor. Variables are substituted based on the context:
+    // ${activeEditorShort}: e.g. myFile.txt
+    // ${activeEditorMedium}: e.g. myFolder/myFile.txt
+    // ${activeEditorLong}: e.g. /Users/Development/myProject/myFolder/myFile.txt
+    // ${rootName}: e.g. myProject
+    // ${rootPath}: e.g. /Users/Development/myProject
+    // ${appName}: e.g. VS Code
+    // ${dirty}: a dirty indicator if the active editor is dirty
+    // ${separator}: a conditional separator (" - ") that only shows when surrounded by variables with values
+    "window.title": "${activeEditorShort}${separator}${rootPath}${dirty}",
+    // Specifies the color theme used in the workbench.
+    "workbench.colorTheme": "Atom One Dark",
+    // Controls the number of recently used commands to keep in history for the command palette. Set to 0 to disable command history.
+    "workbench.commandPalette.history": 0,
+    // Controls whether editors showing a file that was opened during the session should close automatically when getting deleted or renamed by some other process. Disabling this will keep the editor open  on such an event. Note that deleting from within the application will always close the editor and that dirty files will never close to preserve your data.
+    "workbench.editor.closeOnFileDelete": true,
+    // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // Specifies the icon theme used in the workbench or 'null' to not show any file icons.
+    //  - null: No file icons
+    //  - vs-minimal
+    //  - vs-seti
+    //  - vscode-icons
+    "workbench.iconTheme": "vscode-icons",
+    // Controls which editor is shown at startup, if none is restored from the previous session. Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
+    "workbench.startupEditor": "none",
+    // Controls the visibility of the Twitter feedback (smiley) in the status bar at the bottom of the workbench.
+    "workbench.statusBar.feedback.visible": false,
+    // When enabled, will show the watermark tips when no editor is open.
+    "workbench.tips.enabled": false,
+    // Controls whether turning on Zen Mode also hides the status bar at the bottom of the workbench.
+    "zenMode.hideStatusBar": false
 }

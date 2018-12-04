@@ -1,11 +1,11 @@
 #!/bin/bash
 
-print_heading "setting up terminal started"
+print_heading "setting up terminal started ..."
+bkp_terminal=$projdir/copyfiles/terminal/com.apple.Terminal.plist
 
 # check whether directory exists and then copy its contents
-if [ -e $projdir/copyfiles/terminal/com.apple.Terminal.plist ]; then
-	echo "setting terminal ...."
-	\cp -v $projdir/copyfiles/terminal/com.apple.Terminal.plist ~/Library/Preferences/
-fi
+[[ -e $bkp_terminal ]] && debug "setting terminal preferences" && \cp $bkp_terminal ~/Library/Preferences/
+info "Note that these changes require a logout/restart of your OS to take effect"
 
-print_heading "setting up terminal completed"
+unset bkp_terminal
+print_heading "setting up terminal completed ..."

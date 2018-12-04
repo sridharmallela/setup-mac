@@ -1,0 +1,2943 @@
+{
+    "checksum": "c7daceedb4cd60a7f784dc6db1a2019c",
+    "roots": {
+        "bookmark_bar": {
+            "children": [{
+                "children": [{
+                    "children": [{
+                        "date_added": "13146160675000000",
+                        "id": "10",
+                        "name": " alexa/skill-sample-nodejs-fact",
+                        "type": "url",
+                        "url": "https://github.com/alexa/skill-sample-nodejs-fact/blob/master/step-by-step/1-voice-user-interface.md"
+               }, {
+                        "date_added": "13146160671000000",
+                        "id": "8",
+                        "name": "A series of sample code projects to be used for educational purposes during Alexa hackathons and workshops",
+                        "type": "url",
+                        "url": "https://github.com/alexa/alexa-cookbook"
+               }, {
+                        "date_added": "13146160658000000",
+                        "id": "7",
+                        "name": "Alexa Skill Testing Tool - Echosim.io",
+                        "type": "url",
+                        "url": "https://echosim.io/"
+               }, {
+                        "date_added": "13146160663000000",
+                        "id": "9",
+                        "name": "AWS IoT",
+                        "type": "url",
+                        "url": "https://console.aws.amazon.com/iotv2/home?region=us-east-1#/thing/thing1"
+               }],
+                    "date_added": "13166039344860046",
+                    "date_modified": "0",
+                    "id": "6",
+                    "name": "Alexa",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13175714328808012",
+                        "id": "1045",
+                        "name": "AWS Well-Architected Framework",
+                        "type": "url",
+                        "url": "https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf"
+               }, {
+                        "date_added": "13175714351237722",
+                        "id": "1052",
+                        "name": "AWS_Blue_Green_Deployments.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf"
+               }, {
+                        "date_added": "13175714388693382",
+                        "id": "1053",
+                        "name": "AWS_certified_developer_associate_examsample.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_certified_developer_associate_examsample.pdf"
+               }, {
+                        "date_added": "13175714295720385",
+                        "id": "1043",
+                        "name": "AWS_Certified_Developer_Associate_Updated_June_2018_Exam_Guide_v1.3.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate_Updated_June_2018_Exam_Guide_v1.3.pdf"
+               }, {
+                        "date_added": "13175714332127840",
+                        "id": "1046",
+                        "name": "AWS_Cloud_Best_Practices.pdf",
+                        "type": "url",
+                        "url": "https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf"
+               }, {
+                        "date_added": "13175714325304353",
+                        "id": "1044",
+                        "name": "AWS_Security_Best_Practices.pdf",
+                        "type": "url",
+                        "url": "https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf"
+               }, {
+                        "date_added": "13175714231551684",
+                        "id": "1041",
+                        "name": "Best Practices for Querying and Scanning Data - Amazon DynamoDB",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-query-scan.html"
+               }, {
+                        "date_added": "13175714234487547",
+                        "id": "1042",
+                        "name": "Configure Sticky Sessions for Your Classic Load Balancer - Elastic Load Balancing",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-sticky-sessions.html"
+               }, {
+                        "date_added": "13175714339831421",
+                        "id": "1048",
+                        "name": "microservices-on-aws.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/microservices-on-aws.pdf"
+               }, {
+                        "date_added": "13175714345091603",
+                        "id": "1050",
+                        "name": "optimizing-enterprise-economics-serverless-architectures.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/optimizing-enterprise-economics-serverless-architectures.pdf"
+               }, {
+                        "date_added": "13175714335990241",
+                        "id": "1047",
+                        "name": "practicing-continuous-integration-continuous-delivery-on-AWS.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf"
+               }, {
+                        "date_added": "13175714225655978",
+                        "id": "1040",
+                        "name": "Request Rate and Performance Considerations - Amazon Simple Storage Service",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/AmazonS3/latest/dev/request-rate-perf-considerations.html"
+               }, {
+                        "date_added": "13175714347976716",
+                        "id": "1051",
+                        "name": "running-containerized-microservices-on-aws.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf"
+               }, {
+                        "date_added": "13175714342726015",
+                        "id": "1049",
+                        "name": "serverless-architectures-with-aws-lambda.pdf",
+                        "type": "url",
+                        "url": "https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf"
+               }],
+                    "date_added": "13175714223366768",
+                    "date_modified": "13175714462185624",
+                    "id": "1039",
+                    "name": "AWS Certification",
+                    "type": "folder"
+            }],
+                "date_added": "13180239806859704",
+                "date_modified": "13180239827830719",
+                "id": "1279",
+                "name": "Amazon",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13184960552828977",
+                        "id": "1355",
+                        "name": "Sass: Sass Basics",
+                        "type": "url",
+                        "url": "https://sass-lang.com/guide"
+               }],
+                    "date_added": "13184960549569373",
+                    "date_modified": "13185479493096499",
+                    "id": "1354",
+                    "name": "SASS",
+                    "type": "folder"
+            }, {
+                    "date_added": "13129610425000000",
+                    "id": "12",
+                    "name": "A Complete Guide to Flexbox | CSS-Tricks",
+                    "type": "url",
+                    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            }, {
+                    "date_added": "13115628194000000",
+                    "id": "13",
+                    "name": "All Themes - Adobe Color CC",
+                    "type": "url",
+                    "url": "https://color.adobe.com/explore/newest/"
+            }, {
+                    "date_added": "13090709354000000",
+                    "id": "14",
+                    "name": "CSS3 Generator",
+                    "type": "url",
+                    "url": "http://css3generator.com/"
+            }, {
+                    "date_added": "13116744498000000",
+                    "id": "15",
+                    "name": "Introduction - Material design - Material design guidelines",
+                    "type": "url",
+                    "url": "https://material.google.com/"
+            }, {
+                    "date_added": "13112769117000000",
+                    "id": "16",
+                    "name": "Materialize CSS",
+                    "type": "url",
+                    "url": "http://materializecss.com/dialogs.html"
+            }, {
+                    "date_added": "13090532011000000",
+                    "id": "17",
+                    "name": "Nifty Modal Window Effects",
+                    "type": "url",
+                    "url": "http://tympanus.net/Development/ModalWindowEffects/"
+            }, {
+                    "date_added": "13118370763000000",
+                    "id": "18",
+                    "name": "Pure CSS for multiline truncation with ellipsis | Hacking UI",
+                    "type": "url",
+                    "url": "http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/"
+            }, {
+                    "date_added": "13115628180000000",
+                    "id": "19",
+                    "name": "Trendy Web Color Palettes",
+                    "type": "url",
+                    "url": "http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html"
+            }, {
+                    "date_added": "13105064404000000",
+                    "id": "20",
+                    "name": "Wall of browser bugs",
+                    "type": "url",
+                    "url": "http://getbootstrap.com/browser-bugs/"
+            }],
+                "date_added": "13166039344860508",
+                "date_modified": "13184960552828977",
+                "id": "11",
+                "name": "CSS",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13110174656000000",
+                        "id": "23",
+                        "name": "cassandra-unit",
+                        "type": "url",
+                        "url": "https://github.com/jsevellec/cassandra-unit/tree/master/cassandra-unit-spring/src/test/java/org/cassandraunit/spring"
+               }, {
+                        "date_added": "13110176465000000",
+                        "id": "24",
+                        "name": "CQL data types to Java types",
+                        "type": "url",
+                        "url": "https://docs.datastax.com/en/developer/java-driver/3.0/java-driver/reference/javaClass2Cql3Datatypes.html"
+               }, {
+                        "date_added": "13110363342000000",
+                        "id": "25",
+                        "name": "Datastax Mapper does not map fields present in abstract class - Stack Overflow",
+                        "type": "url",
+                        "url": "http://stackoverflow.com/questions/32116980/datastax-mapper-does-not-map-fields-present-in-abstract-class"
+               }, {
+                        "date_added": "13110272116000000",
+                        "id": "26",
+                        "name": "Java Driver for Apache Cassandra - Definition of mapped classes",
+                        "type": "url",
+                        "url": "https://datastax.github.io/java-driver/2.1.7/features/object_mapper/creating/"
+               }, {
+                        "date_added": "13110174503000000",
+                        "id": "27",
+                        "name": "JPA addon for DataStax Java Driver for Cassandra",
+                        "type": "url",
+                        "url": "https://github.com/valchkou/cassandra-driver-mapping"
+               }, {
+                        "date_added": "13110174469000000",
+                        "id": "28",
+                        "name": "Kundera",
+                        "type": "url",
+                        "url": "https://github.com/impetus-opensource/Kundera/blob/trunk/examples/polyglot/kvapps/src/main/java/com/impetus/kvapps/entities/User.java"
+               }, {
+                        "date_added": "13110174506000000",
+                        "id": "29",
+                        "name": "Spring Data Cassandra",
+                        "type": "url",
+                        "url": "http://docs.spring.io/spring-data/cassandra/docs/current/reference/html/#repositories"
+               }, {
+                        "date_added": "13110174675000000",
+                        "id": "30",
+                        "name": "Testing against your Cassandra DB with Cassandra Unit – Codes And Notes",
+                        "type": "url",
+                        "url": "http://www.codesandnotes.be/2014/12/28/testing-against-your-cassandra-db-with-cassandra-unit/"
+               }],
+                    "date_added": "13166039344860798",
+                    "date_modified": "0",
+                    "id": "22",
+                    "name": "Cassandra",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372159000000",
+                        "id": "32",
+                        "name": "MySQL    MySQL 5.1 Reference Manual    4.5.4 mysqldump — A Database Backup Program",
+                        "type": "url",
+                        "url": "http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html"
+               }],
+                    "date_added": "13166039344861140",
+                    "date_modified": "0",
+                    "id": "31",
+                    "name": "MySQL",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372142000000",
+                        "id": "34",
+                        "name": "Introduction to UCP",
+                        "type": "url",
+                        "url": "http://docs.oracle.com/cd/E18283_01/java.112/e12265/intro.htm"
+               }],
+                    "date_added": "13166039344861182",
+                    "date_modified": "0",
+                    "id": "33",
+                    "name": "Oracle",
+                    "type": "folder"
+            }],
+                "date_added": "13166039344860796",
+                "date_modified": "13166039344860796",
+                "id": "21",
+                "name": "DataBases",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13149724908000000",
+                    "id": "336",
+                    "name": "airbnb/javascript: JavaScript Style Guide",
+                    "type": "url",
+                    "url": "https://github.com/airbnb/javascript"
+            }, {
+                    "date_added": "13149542437000000",
+                    "id": "319",
+                    "name": "devspace/awesome-github-templates: Curated list of GitHub Issues and Pull Requests templates",
+                    "type": "url",
+                    "url": "https://github.com/devspace/awesome-github-templates"
+            }, {
+                    "date_added": "13163827062000000",
+                    "id": "314",
+                    "name": "dherges/ng-packagr: Transpile your libraries to Angular Package Format",
+                    "type": "url",
+                    "url": "https://github.com/dherges/ng-packagr"
+            }, {
+                    "date_added": "13149724900000000",
+                    "id": "337",
+                    "name": "doc/development",
+                    "type": "url",
+                    "url": "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development"
+            }, {
+                    "date_added": "13149542073000000",
+                    "id": "320",
+                    "name": "FormidableLabs/electron-webpack-dashboard: Electron Desktop GUI for Webpack Dashboard",
+                    "type": "url",
+                    "url": "https://github.com/FormidableLabs/electron-webpack-dashboard"
+            }, {
+                    "date_added": "13149724954000000",
+                    "id": "338",
+                    "name": "Four-Phase Test",
+                    "type": "url",
+                    "url": "https://robots.thoughtbot.com/four-phase-test"
+            }, {
+                    "date_added": "13149275402000000",
+                    "id": "321",
+                    "name": "gsandf/template-file: 🔀 Replace {{ variables }} in all your files",
+                    "type": "url",
+                    "url": "https://github.com/gsandf/template-file"
+            }, {
+                    "date_added": "13149542258000000",
+                    "id": "322",
+                    "name": "sorrycc/awesome-javascript: 🐢 A collection of awesome browser-side JavaScript libraries, resources and shiny things.",
+                    "type": "url",
+                    "url": "https://github.com/sorrycc/awesome-javascript"
+            }, {
+                    "date_added": "13149542527000000",
+                    "id": "323",
+                    "name": "stevemao/github-issue-templates: A collection of GitHub issue and pull request templates",
+                    "type": "url",
+                    "url": "https://github.com/stevemao/github-issue-templates"
+            }, {
+                    "date_added": "13149724888000000",
+                    "id": "339",
+                    "name": "style_guide_js.md",
+                    "type": "url",
+                    "url": "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/fe_guide/style_guide_js.md"
+            }, {
+                    "date_added": "13149724917000000",
+                    "id": "340",
+                    "name": "style_guide_scss.md ",
+                    "type": "url",
+                    "url": "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/fe_guide/style_guide_scss.md"
+            }, {
+                    "date_added": "13164356469000000",
+                    "id": "325",
+                    "name": "tallesl/node-emojis: Replaces emoji codes to images.",
+                    "type": "url",
+                    "url": "https://github.com/tallesl/node-emojis"
+            }, {
+                    "date_added": "13149724943000000",
+                    "id": "341",
+                    "name": "testing.md",
+                    "type": "url",
+                    "url": "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/testing.md"
+            }, {
+                    "date_added": "13149541988000000",
+                    "id": "324",
+                    "name": "you-dont-need/You-Dont-Need-GUI: Stop relying on GUI; CLI **ROCKS**",
+                    "type": "url",
+                    "url": "https://github.com/you-dont-need/You-Dont-Need-GUI"
+            }],
+                "date_added": "13166039344869981",
+                "date_modified": "13168856894317252",
+                "id": "318",
+                "name": "Github",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13144268928000000",
+                    "id": "343",
+                    "name": "APNS & GCM Online Tester",
+                    "type": "url",
+                    "url": "http://apns-gcm.bryantan.info/"
+            }, {
+                    "date_added": "13142709988000000",
+                    "id": "344",
+                    "name": "CocoaDocs.org - ETPush Class Reference",
+                    "type": "url",
+                    "url": "http://cocoadocs.org/docsets/JB4A-SDK-iOS/4.0.2/Classes/ETPush.html#//api/name/registerForRemoteNotifications"
+            }, {
+                    "date_added": "13145998567000000",
+                    "id": "346",
+                    "name": "CocoaPods Guides - Podspec Syntax Reference \u003Cspan>v1.2.0.beta.1\u003C/span>",
+                    "type": "url",
+                    "url": "https://guides.cocoapods.org/syntax/podspec.html#dependency"
+            }, {
+                    "date_added": "13145983731000000",
+                    "id": "347",
+                    "name": "CocoaPods Guides - Using CocoaPods",
+                    "type": "url",
+                    "url": "https://guides.cocoapods.org/using/using-cocoapods.html"
+            }, {
+                    "date_added": "13142709983000000",
+                    "id": "348",
+                    "name": "ETPush Class Reference",
+                    "type": "url",
+                    "url": "https://salesforce-marketingcloud.github.io/JB4A-SDK-iOS/appledoc/Classes/ETPush.html#//api/name/registerForRemoteNotifications"
+            }, {
+                    "date_added": "13144268933000000",
+                    "id": "349",
+                    "name": "How can I troubleshoot my push notification issues? : PubNub Support",
+                    "type": "url",
+                    "url": "https://support.pubnub.com/support/solutions/articles/14000043605-how-can-i-troubleshoot-my-push-notification-issues-"
+            }, {
+                    "date_added": "13146166134000000",
+                    "id": "350",
+                    "name": "Intro to Marketing Cloud APIs | Marketing Cloud API | Salesforce Developers",
+                    "type": "url",
+                    "url": "https://developer.salesforce.com/docs/atlas.en-us.mc-apis.meta/mc-apis/index-api.htm"
+            }, {
+                    "date_added": "13142533705000000",
+                    "id": "351",
+                    "name": "Journey Builder for Apps iOS SDK (v4.9.0) : Implement SDK",
+                    "type": "url",
+                    "url": "http://salesforce-marketingcloud.github.io/JB4A-SDK-iOS/sdk-implementation/implement-sdk.html"
+            }, {
+                    "date_added": "13142709968000000",
+                    "id": "352",
+                    "name": "Journey Builder for Apps iOS SDK (v4.9.0) : Multiple Push SDKs",
+                    "type": "url",
+                    "url": "http://salesforce-marketingcloud.github.io/JB4A-SDK-iOS/trouble/multiple-push-sdks.html"
+            }, {
+                    "date_added": "13142533701000000",
+                    "id": "353",
+                    "name": "Journey Builder for Apps iOS SDK (v4.9.0) : Silent Pushes",
+                    "type": "url",
+                    "url": "http://salesforce-marketingcloud.github.io/JB4A-SDK-iOS/features/background-push.html"
+            }, {
+                    "date_added": "13142709997000000",
+                    "id": "354",
+                    "name": "LearningAppIos/LearningAppIos/MarketingCloud at master · salesforce-marketingcloud/LearningAppIos",
+                    "type": "url",
+                    "url": "https://github.com/salesforce-marketingcloud/LearningAppIos/tree/master/LearningAppIos/MarketingCloud"
+            }, {
+                    "date_added": "13143956345000000",
+                    "id": "355",
+                    "name": "salesforce-tutorials/ios10-richmedia-push-notifications at master · quintonwall/salesforce-tutorials",
+                    "type": "url",
+                    "url": "https://github.com/quintonwall/salesforce-tutorials/tree/master/ios10-richmedia-push-notifications"
+            }, {
+                    "date_added": "13144268923000000",
+                    "id": "356",
+                    "name": "Test APNS online. Pushwatch lets you test apns notifications online for free",
+                    "type": "url",
+                    "url": "https://www.pushwatch.com/apns/"
+            }, {
+                    "date_added": "13142709992000000",
+                    "id": "357",
+                    "name": "Using NSLog to Debug Your iPhone Application | Blog | Vormplus",
+                    "type": "url",
+                    "url": "http://vormplus.be/blog/article/using-nslog-to-debug-your-iphone-application"
+            }],
+                "date_added": "13166039344870998",
+                "date_modified": "0",
+                "id": "342",
+                "name": "iOS",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13173690866261021",
+                        "id": "748",
+                        "name": "Building automation framework by example – 1. The First Tests - Kainos",
+                        "type": "url",
+                        "url": "https://www.kainos.pl/blog/building-automation-framework-by-example-1-the-first-tests/"
+               }, {
+                        "date_added": "13173690871260631",
+                        "id": "749",
+                        "name": "Protractor for AngularJS: writing end-to-end tests has never been so fun",
+                        "type": "url",
+                        "url": "http://ramonvictor.github.io/protractor/slides/#/1"
+               }],
+                    "date_added": "13173690864699589",
+                    "date_modified": "13174170041357539",
+                    "id": "747",
+                    "name": "Automation",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13123956600000000",
+                        "id": "360",
+                        "name": "Design Patterns Composite Pattern",
+                        "type": "url",
+                        "url": "https://www.tutorialspoint.com/design_pattern/composite_pattern.htm"
+               }, {
+                        "date_added": "13066961073000000",
+                        "id": "361",
+                        "name": "Interview Questions",
+                        "type": "url",
+                        "url": "http://www.javatpoint.com/java-oops-concepts"
+               }, {
+                        "date_added": "13167616257451099",
+                        "id": "693",
+                        "name": "Java 8 Stream Tutorial",
+                        "type": "url",
+                        "url": "http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/"
+               }, {
+                        "date_added": "13043540031000000",
+                        "id": "362",
+                        "name": "Java best practices",
+                        "type": "url",
+                        "url": "http://howtodoinjava.com/java-best-practices/"
+               }, {
+                        "date_added": "13029632078000000",
+                        "id": "363",
+                        "name": "Java exception handling best practices",
+                        "type": "url",
+                        "url": "http://howtodoinjava.com/2013/04/04/java-exception-handling-best-practices/"
+               }],
+                    "date_added": "13166039344871655",
+                    "date_modified": "13167622101881945",
+                    "id": "359",
+                    "name": "Best Practices",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13104429952000000",
+                        "id": "36",
+                        "name": "7 Tips to Speed Up Eclipse",
+                        "type": "url",
+                        "url": "http://www.nicolasbize.com/blog/7-tips-to-speed-up-eclipse/"
+               }, {
+                        "date_added": "13184444667691208",
+                        "id": "1343",
+                        "name": "Chapter 7. Using the FindBugs™ Eclipse plugin",
+                        "type": "url",
+                        "url": "http://findbugs.sourceforge.net/manual/eclipse.html"
+               }, {
+                        "date_added": "13029893305000000",
+                        "id": "37",
+                        "name": "Git version control with Eclipse (EGit) - Tutorial",
+                        "type": "url",
+                        "url": "http://www.vogella.com/articles/EclipseGit/article.html"
+               }, {
+                        "date_added": "13072372151000000",
+                        "id": "38",
+                        "name": "Overcoming XML Validation Errors in Eclipse 3.5 | MuleSoft Blog",
+                        "type": "url",
+                        "url": "http://blogs.mulesoft.org/overcoming-xml-validation-errors-in-eclipse-35/"
+               }],
+                    "date_added": "13166039344861226",
+                    "date_modified": "13184659321723432",
+                    "id": "35",
+                    "name": "Eclipse",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372090000000",
+                        "id": "365",
+                        "name": "FileUpload - Using FileUpload",
+                        "type": "url",
+                        "url": "http://commons.apache.org/proper/commons-fileupload/using.html"
+               }, {
+                        "date_added": "13072372090000000",
+                        "id": "366",
+                        "name": "Liferay Developer Best Practices for a Successful Deployment",
+                        "type": "url",
+                        "url": "http://www.slideshare.net/rivetlogic/liferay-developer-best-practices"
+               }, {
+                        "date_added": "13072372090000000",
+                        "id": "367",
+                        "name": "MultipartFilter",
+                        "type": "url",
+                        "url": "http://balusc.blogspot.com/2007/11/multipartfilter.html"
+               }, {
+                        "date_added": "13072372090000000",
+                        "id": "368",
+                        "name": "upload a file using commons file upload streaming api",
+                        "type": "url",
+                        "url": "http://stackoverflow.com/questions/15432024/how-to-upload-a-file-using-commons-file-upload-streaming-api"
+               }],
+                    "date_added": "13166039344871793",
+                    "date_modified": "0",
+                    "id": "364",
+                    "name": "FileUpload",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13046685425000000",
+                        "id": "370",
+                        "name": "Java Garbage Collection Basics",
+                        "type": "url",
+                        "url": "http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html"
+               }, {
+                        "date_added": "13045808577000000",
+                        "id": "371",
+                        "name": "Serial vs. Parallel vs. Concurrent-Mark-Sweep",
+                        "type": "url",
+                        "url": "http://www.tikalk.com/java/garbage-collection-serial-vs-parallel-vs-concurrent-mark-sweep"
+               }, {
+                        "date_added": "13045808608000000",
+                        "id": "372",
+                        "name": "Understanding Memory Management",
+                        "type": "url",
+                        "url": "http://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html"
+               }, {
+                        "date_added": "13115623842000000",
+                        "id": "373",
+                        "name": "Useful JVM Flags",
+                        "type": "url",
+                        "url": "https://blog.codecentric.de/en/2014/01/useful-jvm-flags-part-8-gc-logging/"
+               }],
+                    "date_added": "13166039344871947",
+                    "date_modified": "0",
+                    "id": "369",
+                    "name": "GarabageCollection",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372114000000",
+                        "id": "375",
+                        "name": "Hibernate 3 Annotations",
+                        "type": "url",
+                        "url": "http://java.dzone.com/articles/hibernate-3-annotations"
+               }, {
+                        "date_added": "13107388984000000",
+                        "id": "376",
+                        "name": "Hibernate OGM",
+                        "type": "url",
+                        "url": "http://hibernate.org/ogm/"
+               }, {
+                        "date_added": "13072372114000000",
+                        "id": "377",
+                        "name": "Native Hibernate APIs and Annotation Mappings",
+                        "type": "url",
+                        "url": "http://docs.jboss.org/hibernate/core/3.6/quickstart/en-US/html/hibernate-gsg-tutorial-annotations.html"
+               }, {
+                        "date_added": "13072372114000000",
+                        "id": "378",
+                        "name": "One-to-Many",
+                        "type": "url",
+                        "url": "http://www.mkyong.com/hibernate/hibernate-one-to-many-relationship-example-annotation/"
+               }, {
+                        "date_added": "13072372114000000",
+                        "id": "379",
+                        "name": "One-to-One",
+                        "type": "url",
+                        "url": "http://www.mkyong.com/hibernate/hibernate-one-to-one-relationship-example-annotation/"
+               }, {
+                        "date_added": "13107388987000000",
+                        "id": "380",
+                        "name": "Redis (Experimental)",
+                        "type": "url",
+                        "url": "https://docs.jboss.org/hibernate/ogm/5.0/reference/en-US/html/ch15.html#ogm-redis-storage-principles"
+               }],
+                    "date_added": "13166039344872109",
+                    "date_modified": "0",
+                    "id": "374",
+                    "name": "HIbernate",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13005344630000000",
+                        "id": "382",
+                        "name": " Java working with XML overview",
+                        "type": "url",
+                        "url": "http://www.inspire-software.com/en/index/view/articles-development-notes-java-working-with-xml-overview-jaxb.html"
+               }, {
+                        "date_added": "13005344637000000",
+                        "id": "383",
+                        "name": "XML reading, writing in Java",
+                        "type": "url",
+                        "url": "http://exampledriven.wordpress.com/2012/10/03/jaxb-example-xml-reading-writing-in-java/"
+               }],
+                    "date_added": "13166039344872328",
+                    "date_modified": "0",
+                    "id": "381",
+                    "name": "JAXB",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13119599267000000",
+                        "id": "385",
+                        "name": "EasyMock",
+                        "type": "url",
+                        "url": "http://easymock.org/user-guide.html"
+               }, {
+                        "date_added": "13119599275000000",
+                        "id": "386",
+                        "name": "EasyMock Expecting Calls",
+                        "type": "url",
+                        "url": "https://www.tutorialspoint.com/easymock/easymock_expecting_calls.htm"
+               }, {
+                        "date_added": "13072372122000000",
+                        "id": "387",
+                        "name": "JUnit - Tutorial",
+                        "type": "url",
+                        "url": "http://www.vogella.com/articles/JUnit/article.html"
+               }, {
+                        "date_added": "13030578939000000",
+                        "id": "388",
+                        "name": "JUnit Best Practices",
+                        "type": "url",
+                        "url": "http://www.kyleblaney.com/junit-best-practices/"
+               }, {
+                        "date_added": "13115621577000000",
+                        "id": "389",
+                        "name": "Unit Testing with JUnit ",
+                        "type": "url",
+                        "url": "http://www.vogella.com/tutorials/JUnit/article.html"
+               }],
+                    "date_added": "13166039344872417",
+                    "date_modified": "0",
+                    "id": "384",
+                    "name": "JUnit",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13099162684000000",
+                        "id": "391",
+                        "name": "Log4j Setup",
+                        "type": "url",
+                        "url": "http://www.vipan.com/htdocs/log4jhelp.html"
+               }, {
+                        "date_added": "13111282458000000",
+                        "id": "392",
+                        "name": "Spring with SLF4J and Logback",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/ama/how-to-log-in-spring-with-slf4j-and-logback/"
+               }],
+                    "date_added": "13166039344872573",
+                    "date_modified": "0",
+                    "id": "390",
+                    "name": "Log4j",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372200000000",
+                        "id": "394",
+                        "name": "An introduction to RichFaces",
+                        "type": "url",
+                        "url": "http://www.ibm.com/developerworks/java/library/j-richfaces/"
+               }, {
+                        "date_added": "13072372200000000",
+                        "id": "395",
+                        "name": "JavaServer Faces Tutorial",
+                        "type": "url",
+                        "url": "http://www.vogella.de/articles/JavaServerFaces/article.html"
+               }, {
+                        "date_added": "13072372200000000",
+                        "id": "396",
+                        "name": "Rich data scroller",
+                        "type": "url",
+                        "url": "http://docs.jboss.org/richfaces/latest_3_3_X/en/devguide/html/rich_datascroller.html"
+               }, {
+                        "date_added": "13072372200000000",
+                        "id": "397",
+                        "name": "Rich Extended Data Table",
+                        "type": "url",
+                        "url": "http://docs.jboss.org/richfaces/latest_3_3_X/en/devguide/html/rich_extendedDataTable.html"
+               }, {
+                        "date_added": "13072372200000000",
+                        "id": "398",
+                        "name": "Use richdatascroller for richdataTable pagination",
+                        "type": "url",
+                        "url": "http://www.javabeat.net/tips/90-use-richdatascroller-for-richdatatable-pagi.html"
+               }],
+                    "date_added": "13166039344872645",
+                    "date_modified": "0",
+                    "id": "393",
+                    "name": "Richfaces",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13029635170000000",
+                        "id": "400",
+                        "name": "Spring 3 and hibernate integration tutorial with example",
+                        "type": "url",
+                        "url": "http://howtodoinjava.com/2013/03/21/spring-3-and-hibernate-integration-tutorial-with-example/"
+               }],
+                    "date_added": "13166039344872834",
+                    "date_modified": "0",
+                    "id": "399",
+                    "name": "Spring",
+                    "type": "folder"
+            }, {
+                    "date_added": "12999813315000000",
+                    "id": "401",
+                    "name": "Apache Ant - Tutorial",
+                    "type": "url",
+                    "url": "http://www.vogella.com/articles/ApacheAnt/article.html"
+            }, {
+                    "date_added": "13008721434000000",
+                    "id": "402",
+                    "name": "Concurrency - Anatomy of a Synchronizer",
+                    "type": "url",
+                    "url": "http://tutorials.jenkov.com/java-concurrency/anatomy-of-a-synchronizer.html"
+            }, {
+                    "date_added": "12985573838000000",
+                    "id": "403",
+                    "name": "Creating a key and trust store",
+                    "type": "url",
+                    "url": "http://www.site.uottawa.ca/~lpeyton/csi5389genkeystore.html"
+            }, {
+                    "date_added": "13181265122157021",
+                    "id": "1298",
+                    "name": "Eclipse Vert.x",
+                    "type": "url",
+                    "url": "https://vertx.io/"
+            }, {
+                    "date_added": "13048357348000000",
+                    "id": "404",
+                    "name": "Enterprise Integration Patterns - Table of Contents",
+                    "type": "url",
+                    "url": "http://www.eaipatterns.com/toc.html"
+            }, {
+                    "date_added": "12984147506000000",
+                    "id": "405",
+                    "name": "Exceptions",
+                    "type": "url",
+                    "url": "http://onjava.com/onjava/2003/11/19/exceptions.html"
+            }, {
+                    "date_added": "13152134847000000",
+                    "id": "406",
+                    "name": "Server Side Includes",
+                    "type": "url",
+                    "url": "https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Server_Side_Includes.html"
+            }, {
+                    "date_added": "13128644373000000",
+                    "id": "407",
+                    "name": "System Properties (The Java™ Tutorials Essential Classes The Platform Environment)",
+                    "type": "url",
+                    "url": "http://download.oracle.com/javase/tutorial/essential/environment/sysprop.html"
+            }, {
+                    "date_added": "13029958943000000",
+                    "id": "408",
+                    "name": "The Java API Documentation Generator",
+                    "type": "url",
+                    "url": "http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html#javadoctags"
+            }],
+                "date_added": "13166039344871653",
+                "date_modified": "13181265335505629",
+                "id": "358",
+                "name": "Java",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13163566752000000",
+                        "id": "559",
+                        "name": "A new Angular Service Worker — creating automatic progressive web apps. Part 1: theory",
+                        "type": "url",
+                        "url": "https://medium.com/progressive-web-apps/a-new-angular-service-worker-creating-automatic-progressive-web-apps-part-1-theory-37d7d7647cc7"
+               }, {
+                        "date_added": "13163566792000000",
+                        "id": "561",
+                        "name": "Angular - Service worker in production",
+                        "type": "url",
+                        "url": "https://angular.io/guide/service-worker-devops"
+               }, {
+                        "date_added": "13163566732000000",
+                        "id": "555",
+                        "name": "Angular 5 Service Worker - Hacker News PWA Tutorial | AngularFirebase",
+                        "type": "url",
+                        "url": "https://angularfirebase.com/lessons/hnpwa-angular-5-progressive-web-app-service-worker-tutorial/"
+               }, {
+                        "date_added": "13163566756000000",
+                        "id": "560",
+                        "name": "Angular 5 Service Worker – CodingTheSmartWay.com Blog – Medium",
+                        "type": "url",
+                        "url": "https://medium.com/codingthesmartway-com-blog/angular-5-service-worker-b722e571e306"
+               }, {
+                        "date_added": "13163566736000000",
+                        "id": "556",
+                        "name": "Angular and Service Workers by @PascalPrecht",
+                        "type": "url",
+                        "url": "https://pascalprecht.github.io/slides/angular-and-service-workers/#/"
+               }, {
+                        "date_added": "13163566745000000",
+                        "id": "558",
+                        "name": "Angular Service Worker - Step-By-Step Guide",
+                        "type": "url",
+                        "url": "https://blog.angular-university.io/angular-service-worker/"
+               }, {
+                        "date_added": "13163566713000000",
+                        "id": "554",
+                        "name": "How to go offline with Angular Service Worker [updated]",
+                        "type": "url",
+                        "url": "https://blog.angulartraining.com/how-to-go-offline-with-angular-service-worker-a3cc5dabc4d5"
+               }, {
+                        "date_added": "13163566740000000",
+                        "id": "557",
+                        "name": "Service Workers in Angular With @angular/service-worker ← Alligator.io",
+                        "type": "url",
+                        "url": "https://alligator.io/angular/service-workers/"
+               }],
+                    "date_added": "13166039344878489",
+                    "date_modified": "0",
+                    "id": "553",
+                    "name": "Angular Service Worker",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13162201797000000",
+                        "id": "419",
+                        "name": "Angular Cli",
+                        "type": "url",
+                        "url": "http://ngcli.github.io/#getting-started-project-structure"
+               }, {
+                        "date_added": "13119114504000000",
+                        "id": "411",
+                        "name": "Angular directives for Bootstrap",
+                        "type": "url",
+                        "url": "http://angular-ui.github.io/bootstrap/versioned-docs/1.3.3/"
+               }, {
+                        "date_added": "13156404013000000",
+                        "id": "590",
+                        "name": "AngularJS 1.x Fundamentals (Part 1) ― Scotch",
+                        "type": "url",
+                        "url": "https://scotch.io/tutorials/angularjs-1-x-fundamentals-part-1"
+               }, {
+                        "date_added": "13162208373000000",
+                        "id": "426",
+                        "name": "AngularJs 1.x Open Source projects to follow in 2015 | Julien Renaux Blog",
+                        "type": "url",
+                        "url": "https://julienrenaux.fr/2015/01/18/angularjs-1-x-open-source-projects-to-follow-in-2015/#Ng-Annotate"
+               }, {
+                        "date_added": "13167359358686364",
+                        "id": "688",
+                        "name": "AngularJS 1.x WGW (What Goes Where) guide",
+                        "type": "url",
+                        "url": "https://demisx.github.io/angularjs/2014/09/14/angular-what-goes-where.html"
+               }, {
+                        "date_added": "13132343586000000",
+                        "id": "412",
+                        "name": "AngularJS 1.x with TypeScript (or ES6) Best Practices by Martin McWhorter on CodePen",
+                        "type": "url",
+                        "url": "https://codepen.io/martinmcwhorter/post/angularjs-1-x-with-typescript-or-es6-best-practices"
+               }, {
+                        "date_added": "13085252449000000",
+                        "id": "413",
+                        "name": "Binding to Directive Controllers",
+                        "type": "url",
+                        "url": "http://blog.thoughtram.io/angularjs/2015/01/02/exploring-angular-1.3-bindToController.html"
+               }, {
+                        "date_added": "13084399691000000",
+                        "id": "414",
+                        "name": "Common Mistakes AngularJS Dev",
+                        "type": "url",
+                        "url": "http://www.toptal.com/angular-js/top-18-most-common-angularjs-developer-mistakes"
+               }, {
+                        "date_added": "13162208327000000",
+                        "id": "425",
+                        "name": "Creating an application with AngularJS 1.4, ECMAScript 6, Material Design and Webpack | Julien Renaux Blog",
+                        "type": "url",
+                        "url": "https://julienrenaux.fr/2015/05/05/creating-an-application-with-angularjs-1-4-ecmascript-6-material-design-and-webpack/"
+               }, {
+                        "date_added": "13093489496000000",
+                        "id": "415",
+                        "name": "Don’t Use Sails",
+                        "type": "url",
+                        "url": "https://kev.inburke.com/kevin/dont-use-sails-or-waterline/"
+               }, {
+                        "date_added": "13162203692000000",
+                        "id": "420",
+                        "name": "Getting started with Node.js (Part Three: Node + Angular + Webpack)",
+                        "type": "url",
+                        "url": "https://medium.com/joelachance/getting-started-with-node-js-part-three-angular-webpack-441a645f6c5"
+               }, {
+                        "date_added": "13162207843000000",
+                        "id": "423",
+                        "name": "How to: Modernized AngularJS 1.5+ with ES6, Webpack, Mocha, SASS, and components",
+                        "type": "url",
+                        "url": "https://medium.com/@narthur157/how-to-modernized-angularjs-1-5-with-es6-webpack-mocha-sass-and-components-1babb45a0381"
+               }, {
+                        "date_added": "13167364896304962",
+                        "id": "691",
+                        "name": "Rendering large data with AngularJS 1.4 (ft. Polymer 0.5)",
+                        "type": "url",
+                        "url": "https://medium.com/@martin.sikora/rendering-large-data-with-angularjs-1-4-ft-polymer-0-5-f9afd430cae2"
+               }, {
+                        "date_added": "13162203696000000",
+                        "id": "421",
+                        "name": "Single Page App — AngularJS – codeburst",
+                        "type": "url",
+                        "url": "https://codeburst.io/single-page-app-angularjs-e2fe3d838388"
+               }, {
+                        "date_added": "13084399685000000",
+                        "id": "416",
+                        "name": "Tips to optimize your AngularJS app",
+                        "type": "url",
+                        "url": "https://medium.com/developers-writing/tips-and-practices-to-optimize-your-angularjs-app-8118550ff808"
+               }, {
+                        "date_added": "13084399695000000",
+                        "id": "417",
+                        "name": "Top 5 Mistakes AngularJS",
+                        "type": "url",
+                        "url": "http://csharperimage.jeremylikness.com/2014/11/the-top-5-mistakes-angularjs-developers.html"
+               }, {
+                        "date_added": "13084399675000000",
+                        "id": "418",
+                        "name": "Unit Testing in AngularJS",
+                        "type": "url",
+                        "url": "http://www.syntaxsuccess.com/viewarticle/comprehensive-guide-to-unit-testing-in-angularjs"
+               }, {
+                        "date_added": "13162207709000000",
+                        "id": "422",
+                        "name": "Using AngularJS with ES6 and Webpack",
+                        "type": "url",
+                        "url": "http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/"
+               }, {
+                        "date_added": "13162208233000000",
+                        "id": "424",
+                        "name": "Writing component based app with angular 1.5",
+                        "type": "url",
+                        "url": "http://blog.grossman.io/angular-1-component-based-architecture-2/"
+               }],
+                    "date_added": "13166039344873193",
+                    "date_modified": "13168556370369065",
+                    "id": "410",
+                    "name": "Angular1",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13116476792000000",
+                        "id": "428",
+                        "name": "5 Min Quickstart - ts",
+                        "type": "url",
+                        "url": "https://angular.io/docs/ts/latest/quickstart.html"
+               }, {
+                        "date_added": "13156404106000000",
+                        "id": "595",
+                        "name": "An Intro to ngrx/effects , ngrx/store with Angular 4",
+                        "type": "url",
+                        "url": "https://medium.com/front-end-hacking/an-intro-to-ngrx-effects-ngrx-store-with-angular-4-c55c4d1d5baf"
+               }, {
+                        "date_added": "13116477118000000",
+                        "id": "429",
+                        "name": "Angular 2 App From RC4 to RC5: A Practical Guide - Barbarian Meets Coding",
+                        "type": "url",
+                        "url": "https://www.barbarianmeetscoding.com/blog/2016/08/13/updating-your-angular-2-app-from-rc4-to-rc5-a-practical-guide/"
+               }, {
+                        "date_added": "13121989734000000",
+                        "id": "430",
+                        "name": "Angular 2 Directive and Creating Custom Directives – The Great Place for Memoring",
+                        "type": "url",
+                        "url": "https://hahoangv.wordpress.com/2016/07/15/angular-2-by-example-series-more-directive-and-creating-custom-directives/"
+               }, {
+                        "date_added": "13162430719000000",
+                        "id": "464",
+                        "name": "Angular 5 - Access Window, Document, LocalStorage in Angular Universal",
+                        "type": "url",
+                        "url": "https://www.ryadel.com/en/angular-5-access-window-document-localstorage-browser-types-angular-universal/"
+               }, {
+                        "date_added": "13112751021000000",
+                        "id": "431",
+                        "name": "Angular CLI",
+                        "type": "url",
+                        "url": "https://scotch.io/tutorials/use-the-angular-cli-for-faster-angular-2-projects"
+               }, {
+                        "date_added": "13144863173000000",
+                        "id": "432",
+                        "name": "angular cli · angular/angular-cli Wiki",
+                        "type": "url",
+                        "url": "https://github.com/angular/angular-cli/wiki/angular-cli"
+               }, {
+                        "date_added": "13112751479000000",
+                        "id": "433",
+                        "meta_info": {
+                            "last_visited_desktop": "13188426438487705"
+                        },
+                        "name": "Angular CLI Commands",
+                        "type": "url",
+                        "url": "https://github.com/angular/angular-cli"
+               }, {
+                        "date_added": "13164150537000000",
+                        "id": "466",
+                        "name": "angular-cli/schema.json at d954ed1eab4be477811ca93c2196d5d6058f58df · angular/angular-cli",
+                        "type": "url",
+                        "url": "https://github.com/angular/angular-cli/blob/d954ed1eab4be477811ca93c2196d5d6058f58df/packages/%40angular/cli/lib/config/schema.json"
+               }, {
+                        "date_added": "13112781992000000",
+                        "id": "434",
+                        "name": "Angular2 Gulp Example",
+                        "type": "url",
+                        "url": "https://github.com/DanWahlin/AngularIn20TypeScript/blob/master/gulpfile.js"
+               }, {
+                        "date_added": "13116489894000000",
+                        "id": "435",
+                        "name": "Angular2 Material",
+                        "type": "url",
+                        "url": "https://justindujardin.github.io/ng2-material/#/"
+               }, {
+                        "date_added": "13112778627000000",
+                        "id": "436",
+                        "name": "Angular2 TypeScript Gulp and ExpressJS",
+                        "type": "url",
+                        "url": "http://blog.edenmsg.com/angular2-typescript-gulp-and-expressjs/"
+               }, {
+                        "date_added": "13121903318000000",
+                        "id": "437",
+                        "name": "Angular2-express-mongoose-gulp-node-typescript: AngularJS 2 (Updated to 2.1.0) Mean Stack application which uses Angular2, Gulp, Express, Node, MongoDB (Mongoose) with Repository Pattern Business Layer",
+                        "type": "url",
+                        "url": "https://github.com/moizKachwala/Angular2-express-mongoose-gulp-node-typescript"
+               }, {
+                        "date_added": "13121883682000000",
+                        "id": "438",
+                        "name": "angular2-seed-express: An Angular2 seed project with (Redis/MongoDB/MySQL), Express server and PM2 Daemon.",
+                        "type": "url",
+                        "url": "https://github.com/vyakymenko/angular2-seed-express"
+               }, {
+                        "date_added": "13121884305000000",
+                        "id": "439",
+                        "name": "angular2-starter-kit: Angular2 starter kit — production ready universal web app boilerplate (Angular 2, Server Side Rendering, Web Worker, Docker, Node.js/Express, PostCSS, Webpack, GZip)",
+                        "type": "url",
+                        "url": "https://github.com/pmachowski/angular2-starter-kit"
+               }, {
+                        "date_added": "13167090819038524",
+                        "id": "686",
+                        "name": "Bash scripting cheatsheet",
+                        "type": "url",
+                        "url": "https://devhints.io/bash"
+               }, {
+                        "date_added": "13111282424000000",
+                        "id": "440",
+                        "name": "Beginner’s Guide",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/udemy/angularjs-tutorial-a-beginners-guide-to-angularjs/"
+               }, {
+                        "date_added": "13121989745000000",
+                        "id": "441",
+                        "name": "child routing and components | Software Engineering",
+                        "type": "url",
+                        "url": "https://damienbod.com/2016/03/29/angular-2-child-routing-and-components/"
+               }, {
+                        "date_added": "13116527567000000",
+                        "id": "442",
+                        "name": "Command Line - Firebase",
+                        "type": "url",
+                        "url": "https://www.firebase.com/docs/hosting/command-line-tool.html"
+               }, {
+                        "date_added": "13116488935000000",
+                        "id": "443",
+                        "name": "Creating an Angular 2 build with Gulp, TSLint and DefinitelyTyped",
+                        "type": "url",
+                        "url": "http://blog.scottlogic.com/2015/12/24/creating-an-angular-2-build.html"
+               }, {
+                        "date_added": "13121989723000000",
+                        "id": "444",
+                        "name": "directive in Angular 2 - Angular Tips",
+                        "type": "url",
+                        "url": "http://angular-tips.com/blog/2015/10/creating-a-rating-directive-in-angular-2/"
+               }, {
+                        "date_added": "13153729530000000",
+                        "id": "461",
+                        "name": "End to End Testing with Protractor | The Jackal of Javascript",
+                        "type": "url",
+                        "url": "http://thejackalofjavascript.com/end-to-end-testing-with-protractor/"
+               }, {
+                        "date_added": "13116546985000000",
+                        "id": "445",
+                        "name": "expressjs/morgan",
+                        "type": "url",
+                        "url": "https://github.com/expressjs/morgan"
+               }, {
+                        "date_added": "13121989695000000",
+                        "id": "446",
+                        "name": "Form Builder and Validation Management",
+                        "type": "url",
+                        "url": "https://coryrylan.com/blog/angular-2-form-builder-and-validation-management"
+               }, {
+                        "date_added": "13111282417000000",
+                        "id": "447",
+                        "name": "Form validation",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/jhadesdev/introduction-to-angularjs-form-validation/"
+               }, {
+                        "date_added": "13116484887000000",
+                        "id": "448",
+                        "name": "Gulp Setup for AngularJS Projects",
+                        "type": "url",
+                        "url": "http://paislee.io/a-healthy-gulp-setup-for-angularjs-projects/"
+               }, {
+                        "date_added": "13162430691000000",
+                        "id": "463",
+                        "name": "Http Interceptors",
+                        "type": "url",
+                        "url": "https://medium.com/@ryanchenkie_40935/angular-authentication-using-the-http-client-and-http-interceptors-2f9d1540eb8"
+               }, {
+                        "date_added": "13129610472000000",
+                        "id": "449",
+                        "name": "John Papa: John Papa",
+                        "type": "url",
+                        "url": "https://johnpapa.net/"
+               }, {
+                        "date_added": "13162430652000000",
+                        "id": "592",
+                        "name": "Manage application version",
+                        "type": "url",
+                        "url": "http://www.bilyachat.com/2017/01/angular-2-build-version.html"
+               }, {
+                        "date_added": "13112769128000000",
+                        "id": "450",
+                        "name": "Material Design components for Angular 2",
+                        "type": "url",
+                        "url": "https://github.com/angular/material2"
+               }, {
+                        "date_added": "13112769518000000",
+                        "id": "451",
+                        "name": "material2 Getting Started",
+                        "type": "url",
+                        "url": "https://github.com/angular/material2/blob/master/GETTING_STARTED.md"
+               }, {
+                        "date_added": "13090532016000000",
+                        "id": "452",
+                        "name": "Ng Switch Slider",
+                        "type": "url",
+                        "url": "http://www.nganimate.org/angularjs/ng-switch/slider-css3-transition-animation"
+               }, {
+                        "date_added": "13121989766000000",
+                        "id": "453",
+                        "name": "ngFor syntax",
+                        "type": "url",
+                        "url": "https://coryrylan.com/blog/angular-2-ng-for-syntax"
+               }, {
+                        "date_added": "13121989752000000",
+                        "id": "454",
+                        "name": "NgIf - ts",
+                        "type": "url",
+                        "url": "https://angular.io/docs/ts/latest/api/common/index/NgIf-directive.html"
+               }, {
+                        "date_added": "13162362125000000",
+                        "id": "462",
+                        "name": "Ok.. let me explain: it's going to be Angular 4.0, or simply Angular",
+                        "type": "url",
+                        "url": "https://juristr.com/blog/2016/12/let-me-explain-angular-release-cycles/"
+               }, {
+                        "date_added": "13121989757000000",
+                        "id": "455",
+                        "name": "Pipes - ts",
+                        "type": "url",
+                        "url": "https://angular.io/docs/ts/latest/guide/pipes.html"
+               }, {
+                        "date_added": "13116476651000000",
+                        "id": "456",
+                        "name": "RC4 to RC5 Migration",
+                        "type": "url",
+                        "url": "https://angular.io/docs/ts/latest/cookbook/rc4-to-rc5.html"
+               }, {
+                        "date_added": "13129610498000000",
+                        "id": "457",
+                        "name": "Testing Angular 2 with Karma and Jasmine - Two Fucking Developers",
+                        "type": "url",
+                        "url": "http://twofuckingdevelopers.com/2016/01/testing-angular-2-with-karma-and-jasmine/"
+               }, {
+                        "date_added": "13137777424000000",
+                        "id": "458",
+                        "name": "Testing Services in Angular 2 - Semaphore",
+                        "type": "url",
+                        "url": "https://semaphoreci.com/community/tutorials/testing-services-in-angular-2"
+               }, {
+                        "date_added": "13153729486000000",
+                        "id": "460",
+                        "name": "Testing Services with Http in Angular by thoughtram",
+                        "type": "url",
+                        "url": "https://blog.thoughtram.io/angular/2016/11/28/testing-services-with-http-in-angular-2.html"
+               }, {
+                        "date_added": "13167081065489829",
+                        "id": "685",
+                        "name": "The Best Angular 2 Data Grid: FlexGrid | Wijmo",
+                        "type": "url",
+                        "url": "https://www.grapecity.com/en/blogs/best-angular-2-data-grid-flexgrid/"
+               }, {
+                        "date_added": "13156404099000000",
+                        "id": "591",
+                        "name": "UI state management with Redux in Angular 4 (Example) | hack.guides()",
+                        "type": "url",
+                        "url": "https://www.pluralsight.com/guides/front-end-javascript/ui-state-management-with-redux-in-angular-4"
+               }, {
+                        "date_added": "13121989760000000",
+                        "id": "459",
+                        "name": "User Input - ts",
+                        "type": "url",
+                        "url": "https://angular.io/docs/ts/latest/guide/user-input.html"
+               }, {
+                        "date_added": "13162786217000000",
+                        "id": "465",
+                        "name": "Using HTTP Interceptor with Angular2 ― Scotch",
+                        "type": "url",
+                        "url": "https://scotch.io/@kashyapmukkamala/using-http-interceptor-with-angular2"
+               }, {
+                        "date_added": "13168556357892854",
+                        "id": "709",
+                        "name": "Using NgRx 4 to Manage State in Angular Applications",
+                        "type": "url",
+                        "url": "https://blog.nrwl.io/using-ngrx-4-to-manage-state-in-angular-applications-64e7a1f84b7b?gi=c78f58253810"
+               }, {
+                        "date_added": "13188424261775920",
+                        "id": "1395",
+                        "meta_info": {
+                            "last_visited_desktop": "13188424261776044"
+                        },
+                        "name": "Customize hash on filenames when build --prod · Issue #6969 · angular/angular-cli · GitHub",
+                        "type": "url",
+                        "url": "https://github.com/angular/angular-cli/issues/6969"
+               }],
+                    "date_added": "13166039344873870",
+                    "date_modified": "13188424271514878",
+                    "id": "427",
+                    "name": "Angular2",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13121078938000000",
+                        "id": "468",
+                        "name": "Backbone.js",
+                        "type": "url",
+                        "url": "http://backbonejs.org/#Collection"
+               }, {
+                        "date_added": "13122667887000000",
+                        "id": "469",
+                        "name": "Backbone.js",
+                        "type": "url",
+                        "url": "http://backbonejs.org/#Model-get"
+               }, {
+                        "date_added": "13115324764000000",
+                        "id": "470",
+                        "name": "Backbone.js Tutorial: Spies, Stubs, and Mocks",
+                        "type": "url",
+                        "url": "http://dailyjs.com/2013/02/07/backbone-tutorial-11/"
+               }, {
+                        "date_added": "13115324760000000",
+                        "id": "471",
+                        "name": "Testing Backbone applications with Jasmine and Sinon – Part 1",
+                        "type": "url",
+                        "url": "http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html"
+               }],
+                    "date_added": "13166039344875443",
+                    "date_modified": "0",
+                    "id": "467",
+                    "name": "Backbone",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13132343546000000",
+                        "id": "473",
+                        "name": "How to merge less, scss and css into a single css file with gulp – Yannick PEREIRA-REIS",
+                        "type": "url",
+                        "url": "https://ypereirareis.github.io/blog/2015/10/22/gulp-merge-less-sass-css/"
+               }],
+                    "date_added": "13166039344875592",
+                    "date_modified": "0",
+                    "id": "472",
+                    "name": "Gulp",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13120092813000000",
+                        "id": "475",
+                        "name": "Events | jQuery API Documentation",
+                        "type": "url",
+                        "url": "https://api.jquery.com/category/events/"
+               }, {
+                        "date_added": "13123871143000000",
+                        "id": "476",
+                        "name": "kenwheeler/slick: the last carousel you'll ever need",
+                        "type": "url",
+                        "url": "https://github.com/kenwheeler/slick/"
+               }, {
+                        "date_added": "13123871132000000",
+                        "id": "477",
+                        "name": "slick - the last carousel you'll ever need",
+                        "type": "url",
+                        "url": "http://kenwheeler.github.io/slick/"
+               }],
+                    "date_added": "13166039344875660",
+                    "date_modified": "0",
+                    "id": "474",
+                    "name": "JQuery",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13122667912000000",
+                        "id": "479",
+                        "name": "eft click to activate onclick and right click to activate href - Stack Overflow",
+                        "type": "url",
+                        "url": "http://stackoverflow.com/questions/17157455/left-click-to-activate-onclick-and-right-click-to-activate-href"
+               }, {
+                        "date_added": "13129610449000000",
+                        "id": "480",
+                        "name": "Galen JavaScript API | Galen Framework",
+                        "type": "url",
+                        "url": "http://galenframework.com/docs/reference-galen-javascript-api/"
+               }, {
+                        "date_added": "13174170041357539",
+                        "id": "751",
+                        "name": "I’m harvesting credit card numbers and passwords from your site. Here’s how.",
+                        "type": "url",
+                        "url": "https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5"
+               }, {
+                        "date_added": "13116744370000000",
+                        "id": "481",
+                        "name": "JavaScript Date, Time And Node.js – Robert Price",
+                        "type": "url",
+                        "url": "http://www.robertprice.co.uk/robblog/javascript_date_time_and_node_js-shtml/"
+               }, {
+                        "date_added": "13112305302000000",
+                        "id": "482",
+                        "name": "JavaScript Mistakes",
+                        "type": "url",
+                        "url": "http://www.w3schools.com/js/js_mistakes.asp"
+               }, {
+                        "date_added": "13120603476000000",
+                        "id": "483",
+                        "name": "JavaScript Programming with Visual Studio Code",
+                        "type": "url",
+                        "url": "https://code.visualstudio.com/Docs/languages/javascript"
+               }, {
+                        "date_added": "13129610411000000",
+                        "id": "484",
+                        "name": "mountebank - getting started",
+                        "type": "url",
+                        "url": "http://www.mbtest.org/docs/gettingStarted"
+               }, {
+                        "date_added": "13119413231000000",
+                        "id": "485",
+                        "name": "Regular Expressions Reference: Special and Non-Printable Characters",
+                        "type": "url",
+                        "url": "http://www.regular-expressions.info/refcharacters.html"
+               }, {
+                        "date_added": "13163566815000000",
+                        "id": "487",
+                        "name": "Strange JavaScript Errors and How to Fix Them",
+                        "type": "url",
+                        "url": "https://davidwalsh.name/fix-javascript-errors"
+               }, {
+                        "date_added": "13116749168000000",
+                        "id": "486",
+                        "name": "Webpack tutorials/getting-started",
+                        "type": "url",
+                        "url": "http://webpack.github.io/docs/tutorials/getting-started/"
+               }],
+                    "date_added": "13166039344875763",
+                    "date_modified": "13174430903277040",
+                    "id": "478",
+                    "name": "JS",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13116721378000000",
+                        "id": "489",
+                        "name": "Assert | Node.js v6.4.0 Documentation",
+                        "type": "url",
+                        "url": "https://nodejs.org/api/assert.html"
+               }, {
+                        "date_added": "13116699731000000",
+                        "id": "490",
+                        "name": "beradrian/jsbandwidth: Test bandwidth inside your browser",
+                        "type": "url",
+                        "url": "https://github.com/beradrian/jsbandwidth"
+               }, {
+                        "date_added": "13136353965000000",
+                        "id": "491",
+                        "name": "Best Practices for Node.js Development | Heroku Dev Center",
+                        "type": "url",
+                        "url": "https://devcenter.heroku.com/articles/node-best-practices"
+               }, {
+                        "date_added": "13156404004000000",
+                        "id": "588",
+                        "name": "Building a Node.js static file server (files over HTTP) using ES6+ | Adrian Mejia Blog",
+                        "type": "url",
+                        "url": "http://adrianmejia.com/blog/2016/08/24/Building-a-Node-js-static-file-server-files-over-HTTP-using-ES6/"
+               }, {
+                        "date_added": "13164356539000000",
+                        "id": "532",
+                        "name": "Carol-Theodor Pelu – Medium",
+                        "type": "url",
+                        "url": "https://medium.com/@CarolPelu"
+               }, {
+                        "date_added": "13132343608000000",
+                        "id": "492",
+                        "name": "DevDocs — TypeScript documentation",
+                        "type": "url",
+                        "url": "http://devdocs.io/typescript/"
+               }, {
+                        "date_added": "13129935157000000",
+                        "id": "493",
+                        "name": "Developing a RESTful API With Node and TypeScript - Michael Herman",
+                        "type": "url",
+                        "url": "http://mherman.org/blog/2016/11/05/developing-a-restful-api-with-node-and-typescript/"
+               }, {
+                        "date_added": "13164356532000000",
+                        "id": "530",
+                        "name": "DMG installer for electron app | Christian Engvall",
+                        "type": "url",
+                        "url": "https://www.christianengvall.se/dmg-installer-electron-app/"
+               }, {
+                        "date_added": "13164356519000000",
+                        "id": "528",
+                        "name": "Documentation | Electron",
+                        "type": "url",
+                        "url": "https://electronjs.org/docs"
+               }, {
+                        "date_added": "13164356529000000",
+                        "id": "529",
+                        "name": "electron/electron-quick-start: Clone to try a simple Electron app",
+                        "type": "url",
+                        "url": "https://github.com/electron/electron-quick-start"
+               }, {
+                        "date_added": "13162110048000000",
+                        "id": "513",
+                        "name": "Error Handling | Joyent",
+                        "type": "url",
+                        "url": "https://www.joyent.com/node-js/production/design/errors"
+               }, {
+                        "date_added": "13162196012000000",
+                        "id": "518",
+                        "name": "Express 4.x - API Reference",
+                        "type": "url",
+                        "url": "http://expressjs.com/en/api.html"
+               }, {
+                        "date_added": "13162196017000000",
+                        "id": "519",
+                        "name": "Express error handling",
+                        "type": "url",
+                        "url": "https://expressjs.com/en/guide/error-handling.html"
+               }, {
+                        "date_added": "13121906853000000",
+                        "id": "494",
+                        "name": "Express routing",
+                        "type": "url",
+                        "url": "https://expressjs.com/en/guide/routing.html"
+               }, {
+                        "date_added": "13129927823000000",
+                        "id": "495",
+                        "name": "Getting Started With Express 4.x View - Template Engine - Tutorial 3",
+                        "type": "url",
+                        "url": "http://excellencenodejsblog.com/getting-started-express-4-x-template-engine/"
+               }, {
+                        "date_added": "13121989708000000",
+                        "id": "496",
+                        "name": "Handle GET and POST Request in Express 4 | Code for geek",
+                        "type": "url",
+                        "url": "https://codeforgeek.com/2014/09/handle-get-post-request-express-4/"
+               }, {
+                        "date_added": "13162121560000000",
+                        "id": "516",
+                        "name": "Handlebars templates with Express 4",
+                        "type": "url",
+                        "url": "http://derpturkey.com/handlebars-templates-with-express-4/"
+               }, {
+                        "date_added": "13129927832000000",
+                        "id": "497",
+                        "name": "Handlebars.js: Minimal Templating on Steroids",
+                        "type": "url",
+                        "url": "http://handlebarsjs.com/"
+               }, {
+                        "date_added": "13162362113000000",
+                        "id": "522",
+                        "name": "Here’s what you need to know about npm 5 - Pusher Blog",
+                        "type": "url",
+                        "url": "https://blog.pusher.com/what-you-need-know-npm-5/"
+               }, {
+                        "date_added": "13164356536000000",
+                        "id": "531",
+                        "name": "How to Build Your First Desktop App with JavaScript Using Electron",
+                        "type": "url",
+                        "url": "https://medium.freecodecamp.org/how-to-build-your-first-app-with-electron-41ebdb796930"
+               }, {
+                        "date_added": "13162110014000000",
+                        "id": "509",
+                        "name": "How to Create a Node.js Cluster for Speeding Up Your Apps — SitePoint",
+                        "type": "url",
+                        "url": "https://www.sitepoint.com/how-to-create-a-node-js-cluster-for-speeding-up-your-apps/"
+               }, {
+                        "date_added": "13157694996000000",
+                        "id": "508",
+                        "name": "How to Install Node.js on Ubuntu 14.04 - HostingAdvice.com",
+                        "type": "url",
+                        "url": "http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/"
+               }, {
+                        "date_added": "13119421531000000",
+                        "id": "498",
+                        "name": "How to Upgrade Node.js via NPM - TecAdmin.net",
+                        "type": "url",
+                        "url": "http://tecadmin.net/upgrade-nodejs-via-npm/"
+               }, {
+                        "date_added": "13132254920000000",
+                        "id": "499",
+                        "name": "HTTP | Node.js v7.5.0 Documentation",
+                        "type": "url",
+                        "url": "https://nodejs.org/api/http.html#http_http_methods"
+               }, {
+                        "date_added": "13132254924000000",
+                        "id": "500",
+                        "name": "HTTPS | Node.js v7.5.0 Documentation",
+                        "type": "url",
+                        "url": "https://nodejs.org/api/https.html"
+               }, {
+                        "date_added": "13162862020000000",
+                        "id": "525",
+                        "name": "https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json",
+                        "type": "url",
+                        "url": "https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json"
+               }, {
+                        "date_added": "13162430708000000",
+                        "id": "523",
+                        "name": "ingleton in Node.js – Iain Collins – Medium",
+                        "type": "url",
+                        "url": "https://medium.com/@iaincollins/how-not-to-create-a-singleton-in-node-js-bd7fde5361f5"
+               }, {
+                        "date_added": "13162196006000000",
+                        "id": "517",
+                        "name": "Learn to Use the New Router in ExpressJS 4.0 ― Scotch",
+                        "type": "url",
+                        "url": "https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4"
+               }, {
+                        "date_added": "13156404008000000",
+                        "id": "589",
+                        "name": "Making Node.JS Work With Apache | Petro Podrezo's Blog",
+                        "type": "url",
+                        "url": "http://blog.podrezo.com/making-node-js-work-with-apache/"
+               }, {
+                        "date_added": "13085264815000000",
+                        "id": "501",
+                        "name": "Mistakes Node.js",
+                        "type": "url",
+                        "url": "https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make"
+               }, {
+                        "date_added": "13162862009000000",
+                        "id": "524",
+                        "name": "node-emoji",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/node-emoji"
+               }, {
+                        "date_added": "13148576018000000",
+                        "id": "502",
+                        "name": "Node.js Child Processes: Everything you need to know",
+                        "type": "url",
+                        "url": "https://medium.freecodecamp.org/node-js-child-processes-everything-you-need-to-know-e69498fe970a"
+               }, {
+                        "date_added": "13116438937000000",
+                        "id": "503",
+                        "name": "Node.js Security Checklist",
+                        "type": "url",
+                        "url": "https://blog.risingstack.com/node-js-security-checklist/"
+               }, {
+                        "date_added": "13167848118804656",
+                        "id": "699",
+                        "name": "NPM Scripts and My Decision to Drop Gulp by Daniel Yuschick on CodePen",
+                        "type": "url",
+                        "url": "https://codepen.io/Yuschick/post/npm-scripts-and-my-decision-to-drop-gulp"
+               }, {
+                        "date_added": "13162110051000000",
+                        "id": "514",
+                        "name": "Performance Best Practices Using Express in Production",
+                        "type": "url",
+                        "url": "https://expressjs.com/en/advanced/best-practice-performance.html#use-gzip-compression"
+               }, {
+                        "date_added": "13162110056000000",
+                        "id": "515",
+                        "name": "request-debug",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/request-debug"
+               }, {
+                        "date_added": "13162110024000000",
+                        "id": "510",
+                        "name": "Scaling - Webapp clustering in node.js",
+                        "type": "url",
+                        "url": "http://dealwithjs.io/scaling-clustering-in-node-js/"
+               }, {
+                        "date_added": "13132254912000000",
+                        "id": "504",
+                        "name": "Setting environment variables in Node JS with the angular-fullstack generator – Will Myers – Web Developer living in Singapore",
+                        "type": "url",
+                        "url": "http://wmyers.github.io/technical/nodejs/Setting-environment-variables-in-node-with-the-angular-fullstack-generator/"
+               }, {
+                        "date_added": "13163221330000000",
+                        "id": "526",
+                        "name": "Setting Up 5 Useful Middlewares For An Express API | Jscramber Blog",
+                        "type": "url",
+                        "url": "https://blog.jscrambler.com/setting-up-5-useful-middlewares-for-an-express-api/"
+               }, {
+                        "date_added": "13162110038000000",
+                        "id": "512",
+                        "name": "Setting up a Node.js Cluster",
+                        "type": "url",
+                        "url": "http://stackabuse.com/setting-up-a-node-js-cluster/"
+               }, {
+                        "date_added": "13116436884000000",
+                        "id": "505",
+                        "name": "Stop denial of service attacks, configurable allowable burst rate.",
+                        "type": "url",
+                        "url": "https://github.com/rook2pawn/node-ddos"
+               }, {
+                        "date_added": "13132343599000000",
+                        "id": "506",
+                        "name": "The best documentation generator for Node",
+                        "type": "url",
+                        "url": "http://samwize.com/2014/01/31/the-best-documentation-generator-for-node/"
+               }, {
+                        "date_added": "13162110032000000",
+                        "id": "511",
+                        "name": "Understanding the NodeJS cluster module",
+                        "type": "url",
+                        "url": "http://www.acuriousanimal.com/2017/08/12/understanding-the-nodejs-cluster-module.html"
+               }, {
+                        "date_added": "13116699740000000",
+                        "id": "507",
+                        "name": "Unirest for Node.js - Simplified, lightweight HTTP Request Library",
+                        "type": "url",
+                        "url": "http://unirest.io/nodejs"
+               }, {
+                        "date_added": "13163566801000000",
+                        "id": "527",
+                        "name": "Vlad Filippov - debugging node.js with devtools | software engineer / web dev / open source hacker",
+                        "type": "url",
+                        "url": "https://vladfilippov.com/blog/debugging-node-with-devtools/"
+               }, {
+                        "date_added": "13162199335000000",
+                        "id": "520",
+                        "name": "webworker-threads",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/webworker-threads"
+               }, {
+                        "date_added": "13162362092000000",
+                        "id": "521",
+                        "name": "Why does npm take so long while installing packages? | Treehouse Community",
+                        "type": "url",
+                        "url": "https://teamtreehouse.com/community/why-does-npm-take-so-long-while-installing-packages"
+               }, {
+                        "date_added": "13167848109388365",
+                        "id": "698",
+                        "name": "Why I Left Gulp and Grunt for npm Scripts – freeCodeCamp",
+                        "type": "url",
+                        "url": "https://medium.freecodecamp.org/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8"
+               }],
+                    "date_added": "13166039344876101",
+                    "date_modified": "13168556384712874",
+                    "id": "488",
+                    "name": "NodeJS",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13185682563153105",
+                        "id": "1359",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764903236"
+                        },
+                        "name": "3 Challenges to Performance Testing in CI | Abstracta Blog",
+                        "type": "url",
+                        "url": "https://abstracta.us/blog/performance-testing/3-challenges-to-effective-performance-testing-in-continuous-integration/"
+               }, {
+                        "date_added": "13184901025446379",
+                        "id": "1350",
+                        "meta_info": {
+                            "last_visited_desktop": "13188323427122035"
+                        },
+                        "name": "Examples  |  Tools for Web Developers  |  Google Developers",
+                        "type": "url",
+                        "url": "https://developers.google.com/web/tools/puppeteer/examples"
+               }, {
+                        "date_added": "13184901028645938",
+                        "id": "1351",
+                        "meta_info": {
+                            "last_visited_desktop": "13188335976854720"
+                        },
+                        "name": "GoogleChrome/puppeteer: Headless Chrome Node API",
+                        "type": "url",
+                        "url": "https://github.com/GoogleChrome/puppeteer"
+               }, {
+                        "date_added": "13185682586182186",
+                        "id": "1361",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764929890"
+                        },
+                        "name": "Performance testing for your CD pipeline | GoCD Blog",
+                        "type": "url",
+                        "url": "https://www.gocd.org/2016/06/08/Add-performance-testing-to-your-Continuous-Delivery-pipeline/"
+               }, {
+                        "date_added": "13184901019972564",
+                        "id": "1349",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764936382"
+                        },
+                        "name": "Results and examples of what you will get if you run sitespeed.io, browsertime, coach or PageXray.",
+                        "type": "url",
+                        "url": "https://www.sitespeed.io/examples/"
+               }, {
+                        "date_added": "13185682580151857",
+                        "id": "1360",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764943243"
+                        },
+                        "name": "Top 15 Performance Testing Tools and Load Testing Tools of 2018",
+                        "type": "url",
+                        "url": "https://www.softwaretestinghelp.com/performance-testing-tools-load-testing-tools/"
+               }, {
+                        "date_added": "13186795570754229",
+                        "id": "1376",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764949820"
+                        },
+                        "name": "Measure Web Page Performance Using JavaScript",
+                        "type": "url",
+                        "url": "http://qnimate.com/measuring-web-page-performance-using-modern-javascript-apis/"
+               }, {
+                        "date_added": "13186795586972633",
+                        "id": "1377",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764956418"
+                        },
+                        "name": "Measuring Page Load Speed with Navigation Timing - HTML5 Rocks",
+                        "type": "url",
+                        "url": "https://www.html5rocks.com/en/tutorials/webperformance/basics/"
+               }, {
+                        "date_added": "13186795612178351",
+                        "id": "1378",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764962782"
+                        },
+                        "name": "The Basics of Page Speed | Designing for Performance",
+                        "type": "url",
+                        "url": "http://designingforperformance.com/basics-of-page-speed/"
+               }, {
+                        "date_added": "13186795656129226",
+                        "id": "1379",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764969881"
+                        },
+                        "name": "When milliseconds are not enough: performance.now  |  Web  |  Google Developers",
+                        "type": "url",
+                        "url": "https://developers.google.com/web/updates/2012/08/When-milliseconds-are-not-enough-performance-now"
+               }, {
+                        "date_added": "13186795932656915",
+                        "id": "1380",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764975978"
+                        },
+                        "name": "Using Navigation Timing APIs to understand your webpage",
+                        "type": "url",
+                        "url": "https://community.akamai.com/customers/s/article/Using-Navigation-Timing-APIs-to-understand-your-webpage?language=en_US"
+               }, {
+                        "date_added": "13186795941519959",
+                        "id": "1381",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764982101"
+                        },
+                        "name": "Performance - Firefox Developer Tools | MDN",
+                        "type": "url",
+                        "url": "https://developer.mozilla.org/en-US/docs/Tools/Performance"
+               }, {
+                        "date_added": "13186795975159034",
+                        "id": "1382",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764988356"
+                        },
+                        "name": "The Hard Truth About Measuring Page Load Time - Analytics Demystified",
+                        "type": "url",
+                        "url": "https://analyticsdemystified.com/google-analytics/hard-truth-measuring-page-load-time/"
+               }, {
+                        "date_added": "13186796010272143",
+                        "id": "1383",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767764995113"
+                        },
+                        "name": "Web Performance - Evaluating Web Performance: Part 1 — Cantina",
+                        "type": "url",
+                        "url": "https://cantina.co/web-performance-part-i/"
+               }, {
+                        "date_added": "13186812910794430",
+                        "id": "1384",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767779691175"
+                        },
+                        "name": "Measure Page Load Times Using the User Timing API | Constant Contact Tech Blog",
+                        "type": "url",
+                        "url": "https://techblog.constantcontact.com/software-development/measure-page-load-times-using-the-user-timing-api/"
+               }, {
+                        "date_added": "13186812916243103",
+                        "id": "1385",
+                        "meta_info": {
+                            "last_visited_desktop": "13188069068938370"
+                        },
+                        "name": "Measuring page load times with the performance timing context [tutorial] - For data modelers & consumers / Redshift - Discourse – Snowplow",
+                        "type": "url",
+                        "url": "https://discourse.snowplowanalytics.com/t/measuring-page-load-times-with-the-performance-timing-context-tutorial/100"
+               }, {
+                        "date_added": "13186812919738494",
+                        "id": "1386",
+                        "meta_info": {
+                            "last_visited_desktop": "13187767765015096"
+                        },
+                        "name": "Screen Capture with PhantomJS",
+                        "type": "url",
+                        "url": "http://phantomjs.org/screen-capture.html"
+               }, {
+                        "date_added": "13187485034867456",
+                        "id": "1391",
+                        "meta_info": {
+                            "last_visited_desktop": "13187894865257135"
+                        },
+                        "name": "awesome-wpo: A curated list of Web Performance Optimization. Everyone can contribute here!",
+                        "type": "url",
+                        "url": "https://github.com/davidsonfellipe/awesome-wpo"
+               }, {
+                        "date_added": "13187485050979992",
+                        "id": "1392",
+                        "meta_info": {
+                            "last_visited_desktop": "13187769161837723"
+                        },
+                        "name": "lighthouse: Auditing, performance metrics, and best practices for Progressive Web Apps",
+                        "type": "url",
+                        "url": "https://github.com/GoogleChrome/lighthouse"
+               }, {
+                        "date_added": "13187770779090997",
+                        "id": "1393",
+                        "meta_info": {
+                            "last_visited_desktop": "13187770779091391"
+                        },
+                        "name": "TOP 20 load testing tools 2017: open source and commercial",
+                        "type": "url",
+                        "url": "https://geteasyqa.com/blog/best-tools-load-testing/"
+               }, {
+                        "date_added": "13188424271514878",
+                        "id": "1396",
+                        "meta_info": {
+                            "last_visited_desktop": "13188424271514991"
+                        },
+                        "name": "puppeteer/api.md at master · GoogleChrome/puppeteer · GitHub",
+                        "type": "url",
+                        "url": "https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pageclickselector-options"
+               }],
+                    "date_added": "13184901017420055",
+                    "date_modified": "13188424275551452",
+                    "id": "1348",
+                    "name": "Performance Test",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13151527956000000",
+                        "id": "535",
+                        "name": "25. Promises for asynchronous programming",
+                        "type": "url",
+                        "url": "http://exploringjs.com/es6/ch_promises.html#sec_chaining-promises"
+               }, {
+                        "date_added": "13151527938000000",
+                        "id": "534",
+                        "name": "Asynchronous Programming With Promises",
+                        "type": "url",
+                        "url": "https://www.joezimjs.com/javascript/patterns-asynchronous-programming-promises/"
+               }],
+                    "date_added": "13166039344877805",
+                    "date_modified": "0",
+                    "id": "533",
+                    "name": "Promises",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13155646087000000",
+                        "id": "551",
+                        "name": "Code coverage report for ddos.js",
+                        "type": "url",
+                        "url": "file:///Users/a565550/git/pr105639-module_ddos/coverage/lcov-report/ddos.js.html"
+               }, {
+                        "date_added": "13118447362000000",
+                        "id": "538",
+                        "name": "Configuring and running Angular Protractor Tests – ChloeChen",
+                        "type": "url",
+                        "url": "http://www.chloechen.io/configuring-and-running-angular-protractor-tests/"
+               }, {
+                        "date_added": "13088838517000000",
+                        "id": "539",
+                        "name": "How To Use Mocha With TDD",
+                        "type": "url",
+                        "url": "http://webapplog.com/tdd/"
+               }, {
+                        "date_added": "13115324737000000",
+                        "id": "540",
+                        "name": "Jasmine Spy Cheatsheet",
+                        "type": "url",
+                        "url": "http://tobyho.com/2011/12/15/jasmine-spy-cheatsheet/"
+               }, {
+                        "date_added": "13132254934000000",
+                        "id": "541",
+                        "name": "Jasmine: mock an endpoint using $.ajax and Promises for Backbone - 【126Kr】",
+                        "type": "url",
+                        "url": "http://126kr.com/article/8eokuuiibt1"
+               }, {
+                        "date_added": "13116613332000000",
+                        "id": "542",
+                        "meta_info": {
+                            "last_visited_desktop": "13187490113246350"
+                        },
+                        "name": "Karma - Configuration",
+                        "type": "url",
+                        "url": "http://karma-runner.github.io/1.0/intro/configuration.html"
+               }, {
+                        "date_added": "13184957356586132",
+                        "id": "1353",
+                        "name": "Karma Tutorial - Unit Testing JavaScript",
+                        "type": "url",
+                        "url": "http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/"
+               }, {
+                        "date_added": "13093424776000000",
+                        "id": "543",
+                        "name": "Lessons learned from unit testing with Sinon.JS",
+                        "type": "url",
+                        "url": "https://enterprisejs.io/lessons-learned-from-unit-testing-with-sinon-js/"
+               }, {
+                        "date_added": "13132254941000000",
+                        "id": "544",
+                        "name": "Mocking jQuery selector calls with Jasmine – Joan Llenas",
+                        "type": "url",
+                        "url": "http://www.joangarnet.com/?p=2098"
+               }, {
+                        "date_added": "13155629675000000",
+                        "id": "550",
+                        "name": "Setting up test coverage using Mocha, Istanbul, NYC with TypeScript",
+                        "type": "url",
+                        "url": "http://azimi.me/2016/09/30/nyc-mocha-typescript.1.html"
+               }, {
+                        "date_added": "13085264821000000",
+                        "id": "545",
+                        "name": "Sinon Spies vs. Stubs",
+                        "type": "url",
+                        "url": "http://jaketrent.com/post/sinon-spies-vs-stubs/"
+               }, {
+                        "date_added": "13085264824000000",
+                        "id": "546",
+                        "name": "Sinon.JS",
+                        "type": "url",
+                        "url": "http://sinonjs.org/docs/#spies-api"
+               }, {
+                        "date_added": "13151527875000000",
+                        "id": "549",
+                        "name": "Stubs - Sinon.JS",
+                        "type": "url",
+                        "url": "http://sinonjs.org/releases/v4.0.0/stubs/"
+               }, {
+                        "date_added": "13132254949000000",
+                        "id": "547",
+                        "name": "Testing Node and Express - Michael Herman",
+                        "type": "url",
+                        "url": "http://mherman.org/blog/2016/09/12/testing-node-and-express/"
+               }, {
+                        "date_added": "13121036040000000",
+                        "id": "548",
+                        "name": "Unit Test like a Secret Agent with Sinon.js · Elijah Manor",
+                        "type": "url",
+                        "url": "http://elijahmanor.com/unit-test-like-a-secret-agent-with-sinon-js/"
+               }, {
+                        "date_added": "13157685429000000",
+                        "id": "552",
+                        "name": "Unit Testing Express Routers",
+                        "type": "url",
+                        "url": "http://evanshortiss.com/development/javascript/2016/04/15/express-testing-using-ioc.html"
+               }],
+                    "date_added": "13166039344877897",
+                    "date_modified": "13184957363406307",
+                    "id": "537",
+                    "name": "UnitTests",
+                    "type": "folder"
+            }, {
+                    "date_added": "13144884172000000",
+                    "id": "562",
+                    "name": "Angular - QuickStart",
+                    "type": "url",
+                    "url": "https://angular.io/guide/quickstart"
+            }, {
+                    "date_added": "13129935138000000",
+                    "id": "563",
+                    "name": "Creating and Publishing a Node.js Module | Quick Left",
+                    "type": "url",
+                    "url": "https://quickleft.com/blog/creating-and-publishing-a-node-js-module/"
+            }, {
+                    "date_added": "13169229719935295",
+                    "id": "715",
+                    "name": "Introduction to fetch()  |  Web  |  Google Developers",
+                    "type": "url",
+                    "url": "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"
+            }, {
+                    "date_added": "13175307254491525",
+                    "id": "780",
+                    "name": "Istanbul not producing report for Mocha/Node.js integration tests · Issue #574 · gotwarlost/istanbul",
+                    "type": "url",
+                    "url": "https://github.com/gotwarlost/istanbul/issues/574"
+            }, {
+                    "date_added": "13177280053219294",
+                    "id": "1234",
+                    "name": "JavaScript Performance Tip: Precompile Your Regular Expressions",
+                    "type": "url",
+                    "url": "https://opnsrce.github.io/javascript-performance-tip-precompile-your-regular-expressions"
+            }, {
+                    "date_added": "13178656224937329",
+                    "id": "1246",
+                    "name": "khan4019/angular-interview-questions: Most extensive Angular interview questions based on your level.",
+                    "type": "url",
+                    "url": "https://github.com/khan4019/angular-interview-questions"
+            }, {
+                    "date_added": "13129610542000000",
+                    "id": "564",
+                    "name": "rollup/rollup: Next-generation ES6 module bundler",
+                    "type": "url",
+                    "url": "https://github.com/rollup/rollup"
+            }, {
+                    "date_added": "13130284440000000",
+                    "id": "565",
+                    "name": "The offline cookbook - JakeArchibald.com",
+                    "type": "url",
+                    "url": "https://jakearchibald.com/2014/offline-cookbook/#cache-then-network"
+            }, {
+                    "date_added": "13132640731000000",
+                    "id": "566",
+                    "name": "The Ultimate Guide to Configuring NPM",
+                    "type": "url",
+                    "url": "http://stackabuse.com/the-ultimate-guide-to-configuring-npm/"
+            }, {
+                    "date_added": "13129610485000000",
+                    "id": "567",
+                    "name": "Usage | Yarn",
+                    "type": "url",
+                    "url": "https://yarnpkg.com/en/docs/usage"
+            }, {
+                    "date_added": "13136353976000000",
+                    "id": "568",
+                    "name": "Use Yarn Package Manager In Your Angular CLI Projects / (Angular 4+ & ASP.NET Core) Gurustop.NET By @Meligy",
+                    "type": "url",
+                    "url": "https://www.gurustop.net/blog/2017/01/26/use-yarn-npm-with-angular-cli"
+            }, {
+                    "date_added": "13162781005000000",
+                    "id": "569",
+                    "name": "Using CORS in Express – Trisfera – Medium",
+                    "type": "url",
+                    "url": "https://medium.com/trisfera/using-cors-in-express-cac7e29b005b"
+            }, {
+                    "date_added": "13186098069462118",
+                    "id": "1371",
+                    "name": "Here are the most popular ways to make an HTTP request in JavaScript",
+                    "type": "url",
+                    "url": "https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa"
+            }],
+                "date_added": "13166039344873191",
+                "date_modified": "13186705085656693",
+                "id": "409",
+                "name": "JavaScript",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13123183759000000",
+                    "id": "573",
+                    "name": "IMMStar Portal",
+                    "type": "url",
+                    "url": "https://immstar.immtracker.com/portal/"
+            }, {
+                    "date_added": "13182955813503325",
+                    "id": "1337",
+                    "name": "Trinity Bell Gardens Apartments Resident Services | Trinity Bell Gardens Apartments",
+                    "type": "url",
+                    "url": "https://trinitybellgardens.securecafe.com/residentservices/trinity-bell-gardens-apartments/userlogin.aspx"
+            }],
+                "date_added": "13166039344879091",
+                "date_modified": "13184346656669725",
+                "id": "570",
+                "name": "Personal",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13181724945050325",
+                        "id": "1317",
+                        "name": "Easy HTTP/2 Server with Node.js and Express.js",
+                        "type": "url",
+                        "url": "https://webapplog.com/http2-node/"
+               }, {
+                        "date_added": "13181724948643476",
+                        "id": "1318",
+                        "name": "express-http2 - npm",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/express-http2"
+               }, {
+                        "date_added": "13181840986439237",
+                        "id": "1325",
+                        "name": "How To Set Up Nginx with HTTP/2 Support on Ubuntu 16.04 | DigitalOcean",
+                        "type": "url",
+                        "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-16-04"
+               }, {
+                        "date_added": "13181840992359022",
+                        "id": "1326",
+                        "name": "How To Set Up Nginx with HTTP/2 Support on Ubuntu 18.04 | DigitalOcean",
+                        "type": "url",
+                        "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-18-04"
+               }, {
+                        "date_added": "13181726424269132",
+                        "id": "1323",
+                        "name": "HTTP/2 | Node.js v9.11.2 Documentation",
+                        "type": "url",
+                        "url": "https://nodejs.org/docs/latest-v9.x/api/http2.html"
+               }, {
+                        "date_added": "13181726223576964",
+                        "id": "1322",
+                        "name": "HTTP/2 Frequently Asked Questions",
+                        "type": "url",
+                        "url": "https://http2.github.io/faq/"
+               }, {
+                        "date_added": "13181841009991448",
+                        "id": "1329",
+                        "name": "HTTP2 with node.js behind nginx proxy - Stack Overflow",
+                        "type": "url",
+                        "url": "https://stackoverflow.com/questions/41637076/http2-with-node-js-behind-nginx-proxy"
+               }, {
+                        "date_added": "13181840996125476",
+                        "id": "1327",
+                        "name": "HTTP2-Theory-and-Practice-2017-06-04-at-3.04.16-PM.png (1833×1031)",
+                        "type": "url",
+                        "url": "https://cdn-1.wp.nginx.com/wp-content/uploads/2017/06/HTTP2-Theory-and-Practice-2017-06-04-at-3.04.16-PM.png"
+               }, {
+                        "date_added": "13181841002812931",
+                        "id": "1328",
+                        "name": "Introducing HTTP/2 Server Push with NGINX 1.13.9 | NGINX",
+                        "type": "url",
+                        "url": "https://www.nginx.com/blog/nginx-1-13-9-http2-server-push/"
+               }, {
+                        "date_added": "13181726196377774",
+                        "id": "1320",
+                        "name": "molnarg/node-http2: An HTTP/2 client and server implementation for node.js",
+                        "type": "url",
+                        "url": "https://github.com/molnarg/node-http2"
+               }, {
+                        "date_added": "13181724926435166",
+                        "id": "1315",
+                        "name": "Node.js can HTTP/2 push! – Node.js Collection – Medium",
+                        "type": "url",
+                        "url": "https://medium.com/the-node-js-collection/node-js-can-http-2-push-b491894e1bb1"
+               }, {
+                        "date_added": "13181724931491332",
+                        "id": "1316",
+                        "name": "Optimize Your App with HTTP/2 Server Push Using Node and Express",
+                        "type": "url",
+                        "url": "https://webapplog.com/http2-server-push-node-express/"
+               }, {
+                        "date_added": "13181877778112422",
+                        "id": "1331",
+                        "name": "Running Express, Koa and Hapi on HTTP/2",
+                        "type": "url",
+                        "url": "https://ivanjov.com/running-express-koa-and-hapi-on-http-2/"
+               }, {
+                        "date_added": "13181726212249630",
+                        "id": "1321",
+                        "name": "The HTTP/2 Protocol: Its Pros, Cons, and How to Start Using It",
+                        "type": "url",
+                        "url": "https://www.upwork.com/hiring/development/the-http2-protocol-its-pros-cons-and-how-to-start-using-it/"
+               }, {
+                        "date_added": "13181726188809883",
+                        "id": "1319",
+                        "name": "Tools for debugging, testing and using HTTP/2",
+                        "type": "url",
+                        "url": "https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/"
+               }],
+                    "date_added": "13181724923153266",
+                    "date_modified": "13181941400552116",
+                    "id": "1314",
+                    "name": "HTTP2",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13107388980000000",
+                        "id": "576",
+                        "name": "Build a RESTful Web service using Jersey and Apache Tomcat",
+                        "type": "url",
+                        "url": "http://www.ibm.com/developerworks/library/wa-aj-tomcat/"
+               }, {
+                        "date_added": "13111282450000000",
+                        "id": "577",
+                        "name": "CORS on the server side in Java with Jersey",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/ama/how-to-add-cors-support-on-the-server-side-in-java-with-jersey/"
+               }, {
+                        "date_added": "13059675727000000",
+                        "id": "578",
+                        "name": "Deactivate logging of jersey",
+                        "type": "url",
+                        "url": "http://jersey.576304.n2.nabble.com/Deactivate-logging-of-jersey-td5115850.html"
+               }, {
+                        "date_added": "13111282445000000",
+                        "id": "579",
+                        "name": "Jersey REST with Spring Security and Basic authentication",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/ama/how-to-secure-jersey-rest-services-with-spring-security-and-basic-authentication/"
+               }, {
+                        "date_added": "13031787086000000",
+                        "id": "580",
+                        "name": "REST File download example",
+                        "type": "url",
+                        "url": "http://howtodoinjava.com/2013/05/10/resteasy-file-download-example/"
+               }, {
+                        "date_added": "13111282428000000",
+                        "id": "581",
+                        "name": "REST Jersey and Spring",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/ama/tutorial-rest-api-design-and-implementation-in-java-with-jersey-and-spring/"
+               }, {
+                        "date_added": "13110174512000000",
+                        "id": "582",
+                        "name": "RESTful WS in Java with Jersey, Spring and MyBatis",
+                        "type": "url",
+                        "url": "http://www.codingpedia.org/ama/restful-web-services-example-in-java-with-jersey-spring-and-mybatis/"
+               }, {
+                        "date_added": "12997219142000000",
+                        "id": "583",
+                        "name": "Using REST in Java",
+                        "type": "url",
+                        "url": "http://rest.elkstein.org/2008/02/using-rest-in-java.html"
+               }],
+                    "date_added": "13166039344879197",
+                    "date_modified": "0",
+                    "id": "575",
+                    "name": "Rest",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13164929134000000",
+                        "id": "586",
+                        "name": "SequenceDiagram.org - Free Sequence Diagram Tool Online",
+                        "type": "url",
+                        "url": "https://sequencediagram.org/?#"
+               }, {
+                        "date_added": "13072372151000000",
+                        "id": "585",
+                        "name": "XML Schemas",
+                        "type": "url",
+                        "url": "http://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/1.6/tutorial/doc/JAXBWorks3.html"
+               }],
+                    "date_added": "13166039344879511",
+                    "date_modified": "0",
+                    "id": "584",
+                    "name": "XML",
+                    "type": "folder"
+            }],
+                "date_added": "13166039344879196",
+                "date_modified": "13181724926435166",
+                "id": "574",
+                "name": "Protocols",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13179536487331336",
+                    "id": "1262",
+                    "name": "Custom widget: Emotions Ratings, jQuery Survey Library Example",
+                    "type": "url",
+                    "url": "https://surveyjs.io/Examples/Library/?id=custom-widget-emotionsratings&platform=jQuery&theme=default"
+            }, {
+                    "date_added": "13179536478411027",
+                    "id": "1261",
+                    "name": "express-survey - npm",
+                    "type": "url",
+                    "url": "https://www.npmjs.com/package/express-survey"
+            }, {
+                    "date_added": "13179536498771061",
+                    "id": "1264",
+                    "name": "Free Survey Library for angular 2+, jQuery, react, vue and knockout - SurveyJS Library Overview",
+                    "type": "url",
+                    "url": "https://surveyjs.io/Overview/Library/"
+            }, {
+                    "date_added": "13179536510931985",
+                    "id": "1267",
+                    "name": "How to create the survey app using Angular 2 and CosmicJS backend | DevFanatic blog",
+                    "type": "url",
+                    "url": "https://devfanaticblog.com/how-to-create-the-survey-app-using-angular-2-and-cosmicjs-backend/"
+            }, {
+                    "date_added": "13179536513858700",
+                    "id": "1268",
+                    "name": "Product feedback survey example, Angular2 Survey Library Example",
+                    "type": "url",
+                    "url": "https://surveyjs.io/Examples/Library/?id=real-productfeedback&platform=Angular2"
+            }, {
+                    "date_added": "13179536491873518",
+                    "id": "1263",
+                    "name": "survey-angular - npm",
+                    "type": "url",
+                    "url": "https://www.npmjs.com/package/survey-angular"
+            }, {
+                    "date_added": "13179536506770459",
+                    "id": "1266",
+                    "name": "surveyjs_angular_cli/survey.component.ts at master · surveyjs/surveyjs_angular_cli",
+                    "type": "url",
+                    "url": "https://github.com/surveyjs/surveyjs_angular_cli/blob/master/src/app/survey.component.ts"
+            }, {
+                    "date_added": "13179536502626828",
+                    "id": "1265",
+                    "name": "T969 - Regarding Paid Version Features | Answer Desk",
+                    "type": "url",
+                    "url": "https://surveyjs.answerdesk.io/ticket/details/T969/regarding-paid-version-features"
+            }],
+                "date_added": "13179536475450079",
+                "date_modified": "13179856146246191",
+                "id": "1260",
+                "name": "Survey",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13171551590847633",
+                        "id": "730",
+                        "name": "All the Electron Docs! | Electron",
+                        "type": "url",
+                        "url": "https://electronjs.org/docs/all"
+               }, {
+                        "date_added": "13174430903277040",
+                        "id": "753",
+                        "name": "Angular 4 CRUD Example",
+                        "type": "url",
+                        "url": "https://www.concretepage.com/angular-2/angular-4-crud-example"
+               }, {
+                        "date_added": "13174430920069201",
+                        "id": "756",
+                        "name": "css-combine - npm",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/css-combine"
+               }, {
+                        "date_added": "13171551602991467",
+                        "id": "733",
+                        "name": "Electron | Christian Engvall",
+                        "type": "url",
+                        "url": "https://www.christianengvall.se/category/electron/"
+               }, {
+                        "date_added": "13171551598998441",
+                        "id": "732",
+                        "name": "electron-quick-start/main.js at master · electron/electron-quick-start",
+                        "type": "url",
+                        "url": "https://github.com/electron/electron-quick-start/blob/master/main.js"
+               }, {
+                        "date_added": "13171551580831517",
+                        "id": "729",
+                        "name": "Introduction · electron-builder",
+                        "type": "url",
+                        "url": "https://www.electron.build/"
+               }, {
+                        "date_added": "13174430916853319",
+                        "id": "755",
+                        "name": "node-sass - npm",
+                        "type": "url",
+                        "url": "https://www.npmjs.com/package/node-sass"
+               }, {
+                        "date_added": "13174430912781262",
+                        "id": "754",
+                        "name": "sass/node-sass: Node.js bindings to libsass",
+                        "type": "url",
+                        "url": "https://github.com/sass/node-sass"
+               }, {
+                        "date_added": "13171551595368065",
+                        "id": "731",
+                        "name": "sindresorhus/awesome-electron: Useful resources for creating apps with Electron",
+                        "type": "url",
+                        "url": "https://github.com/sindresorhus/awesome-electron#boilerplates"
+               }],
+                    "date_added": "13171551578101721",
+                    "date_modified": "13174676468535213",
+                    "id": "728",
+                    "name": "Temp",
+                    "type": "folder"
+            }, {
+                    "date_added": "12990730519000000",
+                    "id": "598",
+                    "name": "Discounts for IBMers",
+                    "type": "url",
+                    "url": "http://www.beneplace.com/user_login.jsp?Client_UserId=46944582"
+            }, {
+                    "date_added": "13107388996000000",
+                    "id": "599",
+                    "name": "iOffer",
+                    "type": "url",
+                    "url": "https://www.ioffer.com/c/Men-s-Shoes-1010286/"
+            }, {
+                    "date_added": "12966366743000000",
+                    "id": "600",
+                    "name": "Let me google that for you",
+                    "type": "url",
+                    "url": "http://lmgtfy.com/"
+            }, {
+                    "date_added": "13129314294000000",
+                    "id": "601",
+                    "meta_info": {
+                        "last_visited_desktop": "13188375984014525"
+                    },
+                    "name": "Live cricket scores, commentary, match coverage | Cricket news, statistics | ESPN Cricinfo",
+                    "type": "url",
+                    "url": "http://www.espncricinfo.com/"
+            }],
+                "date_added": "13166039344879963",
+                "date_modified": "13180239865339278",
+                "id": "597",
+                "name": "Timepass",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "children": [{
+                        "date_added": "13072372167000000",
+                        "id": "604",
+                        "name": "Configuring Virtual Servers",
+                        "type": "url",
+                        "url": "http://support.f5.com/kb/en-us/products/lc_9_x/manuals/product/lc_config_guide_10_1/lc_virtual.html#1195001"
+               }, {
+                        "date_added": "13072372167000000",
+                        "id": "605",
+                        "name": "Managing Protocol Profiles",
+                        "type": "url",
+                        "url": "http://support.f5.com/kb/en-us/products/lc_9_x/manuals/product/lc_config_guide_10_1/lc_protocol_profiles.html"
+               }],
+                    "date_added": "13166039344880095",
+                    "date_modified": "0",
+                    "id": "603",
+                    "name": "BigIPorF5",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13181265047856071",
+                        "id": "1295",
+                        "name": "Commit Often, Perfect Later, Publish Once—Git Best Practices",
+                        "type": "url",
+                        "url": "https://sethrobertson.github.io/GitBestPractices/"
+               }, {
+                        "date_added": "13105034525000000",
+                        "id": "607",
+                        "name": "Git Quick Reference",
+                        "type": "url",
+                        "url": "http://jonas.nitro.dk/git/quick-reference.html"
+               }, {
+                        "date_added": "13105034518000000",
+                        "id": "608",
+                        "name": "Git Reference",
+                        "type": "url",
+                        "url": "http://gitref.org/"
+               }, {
+                        "date_added": "13131321219000000",
+                        "id": "609",
+                        "name": "Squash several Git commits into a single commit - makandropedia",
+                        "type": "url",
+                        "url": "https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit"
+               }],
+                    "date_added": "13166039344880177",
+                    "date_modified": "13181265072887712",
+                    "id": "606",
+                    "name": "Git",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13000413355000000",
+                        "id": "611",
+                        "name": "Continuous integration with Hudson - JavaWorld",
+                        "type": "url",
+                        "url": "http://www.javaworld.com/javaworld/jw-12-2008/jw-12-hudson-ci.html?page=7"
+               }, {
+                        "date_added": "13000412970000000",
+                        "id": "612",
+                        "name": "Jenkins or Hudson Projects",
+                        "type": "url",
+                        "url": "http://www.eclipse.org/hudson/the-hudson-book/book-hudson.chunked/ch06.html"
+               }],
+                    "date_added": "13166039344880277",
+                    "date_modified": "0",
+                    "id": "610",
+                    "name": "Jenkins",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "12994446264000000",
+                        "id": "614",
+                        "name": "Apache JMeter Component Reference",
+                        "type": "url",
+                        "url": "http://jmeter.apache.org/usermanual/component_reference.html#TCP_Sampler"
+               }, {
+                        "date_added": "12994446281000000",
+                        "id": "615",
+                        "name": "JMeter Test Plan",
+                        "type": "url",
+                        "url": "http://www.roseindia.net/jmeter/what-does-it-do.shtml"
+               }],
+                    "date_added": "13166039344880365",
+                    "date_modified": "0",
+                    "id": "613",
+                    "name": "JMeter",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13072372189000000",
+                        "id": "617",
+                        "name": "liferay-plugins/portlets/sample-sign-in-portlet/docroot/WEB-INF/portlet.xml at master · liferay/liferay-plugins · GitHub",
+                        "type": "url",
+                        "url": "https://github.com/liferay/liferay-plugins/blob/master/portlets/sample-sign-in-portlet/docroot/WEB-INF/portlet.xml"
+               }, {
+                        "date_added": "13072372189000000",
+                        "id": "618",
+                        "name": "SrikanthLiferay: Fetching Data from the JournalArticle Cotent ie. XML File using SAXReaderUtil",
+                        "type": "url",
+                        "url": "http://srikanthliferay.blogspot.com/2012/04/normal-0-false-false-false-en-us-x-none.html"
+               }],
+                    "date_added": "13166039344880434",
+                    "date_modified": "0",
+                    "id": "616",
+                    "name": "Liferay",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13150304868000000",
+                        "id": "624",
+                        "name": "40 Terminal Tips",
+                        "type": "url",
+                        "url": "https://computers.tutsplus.com/tutorials/40-terminal-tips-and-tricks-you-never-thought-you-needed--mac-51192"
+               }, {
+                        "date_added": "13113029805000000",
+                        "id": "620",
+                        "meta_info": {
+                            "last_visited_desktop": "13187892768824541"
+                        },
+                        "name": "Getting Started in Simulator",
+                        "type": "url",
+                        "url": "https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html"
+               }, {
+                        "date_added": "13148076009000000",
+                        "id": "621",
+                        "name": "How to Change Launchpad Icon Grid Layout in Mac OS X",
+                        "type": "url",
+                        "url": "http://osxdaily.com/2016/03/09/change-launchpad-icon-grid-layout-mac-os-x/"
+               }, {
+                        "date_added": "13120239115000000",
+                        "id": "622",
+                        "name": "How to Quickly Lock Your Screen in Mac OS X - The Mac Observer",
+                        "type": "url",
+                        "url": "https://www.macobserver.com/tmo/article/how_to_quickly_lock_your_screen_in_mac_os_x"
+               }, {
+                        "date_added": "13092117417000000",
+                        "id": "623",
+                        "name": "IE for Mac",
+                        "type": "url",
+                        "url": "http://osxdaily.com/2011/09/04/internet-explorer-for-mac-ie7-ie8-ie-9-free/"
+               }, {
+                        "date_added": "13185479493096499",
+                        "id": "1357",
+                        "name": "My Mac Setup - Just some dev",
+                        "type": "url",
+                        "url": "https://www.iamdeveloper.com/my-mac-setup/"
+               }],
+                    "date_added": "13166039344880546",
+                    "date_modified": "13185682563153105",
+                    "id": "619",
+                    "name": "Mac",
+                    "type": "folder"
+            }, {
+                    "children": [{
+                        "date_added": "13066330613000000",
+                        "id": "626",
+                        "name": "Configuring a Transport - Current Mule Documentation",
+                        "type": "url",
+                        "url": "http://www.mulesoft.org/documentation/display/current/Configuring+a+Transport"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "627",
+                        "name": "Creating Rest Service Using Mule ESB 3.3",
+                        "type": "url",
+                        "url": "http://www.javaroots.com/2013/04/creating-rest-service-using-mule-esb-33.html"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "628",
+                        "name": "Flow Processing Strategies - Current Mule Documentation",
+                        "type": "url",
+                        "url": "http://www.mulesoft.org/documentation/display/current/Flow+Processing+Strategies"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "629",
+                        "name": "Mule Esb | Mule Training | Mule ESB, Anypoint Registry, Anypoint Connectors, MMC, APIKit, CloudHub | Mule School | Middleware School",
+                        "type": "url",
+                        "url": "http://training.middlewareschool.com/mule/category/mule/mule-esb/"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "630",
+                        "name": "Mule expression language or mel · patarleth/mule_samples Wiki · GitHub",
+                        "type": "url",
+                        "url": "https://github.com/patarleth/mule_samples/wiki/Mule-expression-language-or-mel"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "631",
+                        "name": "mule-studio-example",
+                        "type": "url",
+                        "url": "https://github.com/daveEason/mule-studio-example-rest"
+               }, {
+                        "date_added": "13072372180000000",
+                        "id": "632",
+                        "name": "RESTful Web Services using Mule ESB",
+                        "type": "url",
+                        "url": "http://www.mulesoft.com/resources/esb/restful-web-services-esb-rest-services-integration"
+               }],
+                    "date_added": "13166039344880763",
+                    "date_modified": "0",
+                    "id": "625",
+                    "name": "Mule",
+                    "type": "folder"
+            }, {
+                    "date_added": "13122667928000000",
+                    "id": "633",
+                    "name": "JavaScript (JS) Escape / Unescape Tool - FreeFormatter.com",
+                    "type": "url",
+                    "url": "http://www.freeformatter.com/javascript-escape.html#ad-output"
+            }, {
+                    "date_added": "13121369870000000",
+                    "id": "634",
+                    "name": "Online JSON Viewer",
+                    "type": "url",
+                    "url": "http://jsonviewer.stack.hu/"
+            }, {
+                    "date_added": "13099162684000000",
+                    "id": "635",
+                    "name": "Performance testing tools",
+                    "type": "url",
+                    "url": "http://www.opensourcetesting.org/performance.php"
+            }, {
+                    "date_added": "13184659321723432",
+                    "id": "1344",
+                    "name": "We all \u003C3 Terminals. - Terminals Are Sexy",
+                    "type": "url",
+                    "url": "https://terminalsare.sexy/#bash"
+            }, {
+                    "date_added": "13187480759451624",
+                    "id": "1390",
+                    "meta_info": {
+                        "last_visited_desktop": "13187480759451816"
+                    },
+                    "name": "List of Chromium Command Line Switches « Peter Beverloo",
+                    "type": "url",
+                    "url": "https://peter.sh/experiments/chromium-command-line-switches/"
+            }],
+                "date_added": "13166039344880093",
+                "date_modified": "13187485034867456",
+                "id": "602",
+                "name": "Tools",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13156498848000000",
+                    "id": "637",
+                    "name": "How To Install the Apache Web Server on Ubuntu 16.04 | DigitalOcean",
+                    "type": "url",
+                    "url": "https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04"
+            }],
+                "date_added": "13166039344881139",
+                "date_modified": "0",
+                "id": "636",
+                "name": "Ubuntu",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13072372174000000",
+                    "id": "639",
+                    "name": "Unix | UnixMantra",
+                    "type": "url",
+                    "url": "http://www.unixmantra.com/p/unix.html#.UounsMSkqRU"
+            }, {
+                    "date_added": "13072372174000000",
+                    "id": "640",
+                    "name": "Unix Visual Editor",
+                    "type": "url",
+                    "url": "http://staff.washington.edu/rells/R110/"
+            }, {
+                    "date_added": "13104519184000000",
+                    "id": "641",
+                    "name": "Vi Cheat Sheet",
+                    "type": "url",
+                    "url": "http://www.lagmonster.org/docs/vi.html"
+            }],
+                "date_added": "13166039344881195",
+                "date_modified": "0",
+                "id": "638",
+                "name": "Unix",
+                "type": "folder"
+         }, {
+                "children": [{
+                    "date_added": "13166126174807051",
+                    "id": "662",
+                    "name": "About bash_profile and bashrc on macOS – Scripting OS X",
+                    "type": "url",
+                    "url": "https://scriptingosx.com/2017/04/about-bash_profile-and-bashrc-on-macos/"
+            }, {
+                    "date_added": "13152657056000000",
+                    "id": "643",
+                    "name": "ansicolor",
+                    "type": "url",
+                    "url": "https://github.com/shiena/ansicolor/blob/master/README.md"
+            }, {
+                    "date_added": "13166131482013989",
+                    "id": "664",
+                    "name": "Bash Prompt Escape Sequences",
+                    "type": "url",
+                    "url": "http://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html"
+            }, {
+                    "date_added": "13166782604631718",
+                    "id": "680",
+                    "name": "Chrome Bookmarks Recovery Tool",
+                    "type": "url",
+                    "url": "https://rongjiecomputer.github.io/chrome/bookmark-recovery/#windows"
+            }, {
+                    "date_added": "13166147177994636",
+                    "id": "666",
+                    "name": "Configuring bash with aliases and functions – Scripting OS X",
+                    "type": "url",
+                    "url": "https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/"
+            }, {
+                    "date_added": "13064942366000000",
+                    "id": "644",
+                    "name": "Configuring CUPS Clients",
+                    "type": "url",
+                    "url": "https://www.freebsd.org/doc/en/articles/cups/printing-cups-clients.html"
+            }, {
+                    "date_added": "13165942323000000",
+                    "id": "658",
+                    "name": "Generate war file from tomcat webapp folder - Stack Overflow",
+                    "type": "url",
+                    "url": "https://stackoverflow.com/questions/16342075/generate-war-file-from-tomcat-webapp-folder"
+            }, {
+                    "date_added": "13165942317000000",
+                    "id": "657",
+                    "name": "How to namespace Bootstrap CSS – Jonáš Jančařík – Medium",
+                    "type": "url",
+                    "url": "https://medium.com/@JonasJancarik/namespacing-bootstrap-css-419961f4d1f8"
+            }, {
+                    "date_added": "13181265085519554",
+                    "id": "1297",
+                    "name": "Increase Test Coverage With Automation - DZone DevOps",
+                    "type": "url",
+                    "url": "https://dzone.com/articles/increase-test-coverage-with-automation#"
+            }, {
+                    "date_added": "13165942297000000",
+                    "id": "656",
+                    "name": "Lesser known Git commands – Hacker Noon",
+                    "type": "url",
+                    "url": "https://hackernoon.com/lesser-known-git-commands-151a1918a60"
+            }, {
+                    "date_added": "13162110060000000",
+                    "id": "653",
+                    "name": "Matt Ferderer | TypeScript Cannot Invoke an Expression whose Type Lacks a Call Signature",
+                    "type": "url",
+                    "url": "https://mattferderer.com/typescript-cannot-invoke-an-expression-whose-type-lacks-a-call-signature/"
+            }, {
+                    "date_added": "13181265072887712",
+                    "id": "1296",
+                    "name": "Meadowmere Park – Lake Grapevine",
+                    "type": "url",
+                    "url": "http://www.lake-grapevine.com/meadowmere-park/"
+            }, {
+                    "date_added": "12964217367000000",
+                    "id": "646",
+                    "name": "Online base64 encoder and decoder",
+                    "type": "url",
+                    "url": "http://base64-encoder-online.waraxe.us/"
+            }, {
+                    "date_added": "13151428039000000",
+                    "id": "647",
+                    "name": "Online PDF Editor",
+                    "type": "url",
+                    "url": "https://www.sejda.com/pdf-editor"
+            }, {
+                    "date_added": "13147367639000000",
+                    "id": "648",
+                    "name": "Sequence Diagram syntax and features",
+                    "type": "url",
+                    "url": "http://plantuml.com/sequence-diagram"
+            }, {
+                    "date_added": "13116480044000000",
+                    "id": "651",
+                    "name": "Setting up a TypeScript + Visual Studio Code development environment",
+                    "type": "url",
+                    "url": "http://blog.wolksoftware.com/setting-up-your-typescript-vs-code-development-environment"
+            }, {
+                    "date_added": "13168556235841642",
+                    "id": "708",
+                    "name": "SVG Editor/Viewer Online",
+                    "type": "url",
+                    "url": "https://www.freecodeformat.com/svg-editor.php"
+            }, {
+                    "date_added": "13150391955000000",
+                    "id": "649",
+                    "name": "SVG viewer & editor online",
+                    "type": "url",
+                    "url": "http://www.rapidtables.com/web/tools/svg-viewer-editor.htm"
+            }, {
+                    "date_added": "13147673319000000",
+                    "id": "650",
+                    "name": "Text to ASCII Art Generator (TAAG)",
+                    "type": "url",
+                    "url": "http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20"
+            }, {
+                    "date_added": "13164145123000000",
+                    "id": "655",
+                    "name": "Tx DPS - Driver License office locations",
+                    "type": "url",
+                    "url": "http://www.dps.texas.gov/administration/driver_licensing_control/rolodex/searchresults.asp"
+            }, {
+                    "date_added": "13185925114402189",
+                    "id": "1369",
+                    "name": "Angular Firebase - YouTube",
+                    "type": "url",
+                    "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+            }],
+                "date_added": "13166039344881300",
+                "date_modified": "13186098069462118",
+                "id": "642",
+                "name": "Useful",
+                "type": "folder"
+         }],
+            "date_added": "13166039301039008",
+            "date_modified": "13180239822327921",
+            "id": "1",
+            "name": "Bookmarks Bar",
+            "type": "folder"
+        },
+        "other": {
+            "children": [],
+            "date_added": "13166039301039019",
+            "date_modified": "13185479498710833",
+            "id": "2",
+            "name": "Other Bookmarks",
+            "type": "folder"
+        },
+        "synced": {
+            "children": [],
+            "date_added": "13166039301039021",
+            "date_modified": "0",
+            "id": "3",
+            "name": "Mobile Bookmarks",
+            "type": "folder"
+        }
+    },
+    "version": 1
+}

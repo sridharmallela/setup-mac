@@ -1,12 +1,10 @@
 #!/bin/bash
 
-print_heading "setting up eclipse started"
+print_heading "setting up eclipse started ..."
+bkp_eclipse=$projdir/copyfiles/eclipse/eclipse.ini
 
-# check if file exists already, to copy it
-if [ -e $projdir/copyfiles/eclipse/eclipse.ini ]; then
-	echo "copy eclipse.ini ....."
-	## copy eclipse ini config file
-	\cp -v $projdir/copyfiles/eclipse/eclipse.ini "$ECLIPSE_HOME"
-fi
+## copy eclipse ini config file
+[[ -e $bkp_eclipse ]] && debug "copy from $bkp_eclipse to $ECLIPSE_HOME ....." && \cp $bkp_eclipse "$ECLIPSE_HOME"
 
-print_heading "setting up eclipse completed"
+unset bkp_eclipse
+print_heading "setting up eclipse completed ..."

@@ -1,14 +1,19 @@
-# This file controls the behaviour of line input editing for
-# programs that use the GNU Readline library.  Existing
-# programs include FTP, Bash, and GDB.
-#
-# You can re-read the inputrc file with C-x C-r.
-# Lines beginning with '#' are comments.
-#
-# First, include any system-wide bindings and variable
-# assignments from /etc/Inputrc
+# -------------------------------------------------------------------------------------------------------------
+# This file controls the behaviour of line input editing for programs that use the GNU Readline library.
+# Existing programs include FTP, Bash, and GDB. You can re-read the inputrc file with C-x C-r.
+# First, include any system-wide bindings and variable assignments from /etc/Inputrc
 $include /etc/Inputrc
 
-# Ignore case while completing
-# (https://scriptingosx.com/2016/04/make-tab-completion-in-bash-case-insensitive/)
+# Ignore case while completing (https://scriptingosx.com/2016/04/make-tab-completion-in-bash-case-insensitive/)
+# Make Tab autocomplete regardless of filename case
 set completion-ignore-case on
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+# Flip through autocompletion matches with Shift-Tab.
+"\e[Z": menu-complete
+
+# Filtered history search
+"\e[A": history-search-backward
+"\e[B": history-search-forward

@@ -1,0 +1,3 @@
+# -------------------------------------------------------------------------------------------------------------
+# setting java home to be 1.7 for maven compiler, as legacy apps needs JIL to be working
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)

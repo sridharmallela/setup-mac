@@ -1,2 +1,27 @@
+# -------------------------------------------------------------------------------------------------------------
 # Automatically normalize line endings for all text-based files
-* text=auto
+
+# These files are text and should be normalized (convert crlf =&gt; lf)
+*.xaml      text
+*.csproj    text
+*.sln       text
+*.tt        text
+*.ps1       text
+*.cmd       text
+*.msbuild   text
+*.md        text
+*.js        text
+*.ts        text
+*.java      text
+*.json      text
+*.text      text
+*.sh        text
+
+# Images should be treated as binary
+# (binary is a macro for -text -diff)
+*.png       binary
+*.jepg      binary
+*.sdf       binary
+*.zip       binary -delta
+
+* text=auto -whitespace

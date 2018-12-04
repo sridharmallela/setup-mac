@@ -1,26 +1,39 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
+    "module": "commonjs",
     "target": "es5",
-    "lib": [
-      "es5",
-      "es6",
-      "es2017",
-      "dom"
-    ],
-    "outDir": "./dist",
-    "sourceMap": true,
+    "lib": ["es5", "es6", "es2017", "dom"],
+    "pretty": true,
+    "sourceMap": false,
+    "importHelpers": true,
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": false,
     "removeComments": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "experimentalDecorators": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "noStrictGenericChecks": true,
+    "skipLibCheck": true,
+    "noStrictPropertyInitialization": true,
+    "baseUrl": ".",
     "typeRoots": [
       "node_modules/@types"
     ]
   },
+  "include": [
+    "lib/**/*"
+  ],
   "exclude": [
     "**/node_modules",
     "**/*.spec.ts",

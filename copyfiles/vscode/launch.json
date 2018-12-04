@@ -1,0 +1,73 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [{
+    "type": "node",
+    "request": "launch",
+    "name": "Server Mocha JS Tests",
+    "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+    "args": [
+      "--opts",
+      "${workspaceFolder}/mocha.opts",
+      "--colors",
+      "${workspaceFolder}/server/**/*.spec.js"
+    ],
+    "cwd": "${workspaceFolder}",
+    "internalConsoleOptions": "openOnSessionStart"
+  }, {
+    "type": "node",
+    "request": "launch",
+    "name": "Server Mocha TS Tests",
+    "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+    "env": {
+      "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.spec.json"
+    },
+    "args": [
+      "--opts",
+      "${workspaceFolder}/mocha.opts",
+      "--colors",
+      "${workspaceFolder}/server/**/*.spec.ts"
+    ],
+    "cwd": "${workspaceFolder}",
+    "internalConsoleOptions": "openOnSessionStart"
+  }, {
+    "type": "node",
+    "request": "launch",
+    "name": "Karma JS Tests",
+    "program": "${workspaceFolder}/node_modules/karma/bin/karma",
+    "args": [
+      "start",
+      "${workspaceFolder}/karma.conf.js"
+    ],
+    "cwd": "${workspaceFolder}",
+    "internalConsoleOptions": "openOnSessionStart"
+  }, {
+    "type": "node",
+    "request": "launch",
+    "name": "Karma TS Tests",
+    "program": "${workspaceFolder}/node_modules/karma/bin/karma",
+    "args": [
+      "start",
+      "${workspaceFolder}/karma.conf.ts"
+    ],
+    "cwd": "${workspaceFolder}",
+    "internalConsoleOptions": "openOnSessionStart"
+  }, {
+    "type": "node",
+    "request": "launch",
+    "name": "Typescript Start App",
+    "program": "${workspaceFolder}/app.ts",
+    "runtimeArgs": [
+      "--nolazy",
+      "-r",
+      "ts-node/register"
+    ]
+  }, {
+    "type": "node",
+    "request": "launch",
+    "name": "Javascript Start App",
+    "program": "${workspaceFolder}/dist/app.js"
+  }]
+}
